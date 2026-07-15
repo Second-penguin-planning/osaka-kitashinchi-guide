@@ -293,10 +293,10 @@ const AIRTABLE_CONFIG = {
 
 // ─── Airtable フィールド名マッピング ────────────────────────
 const FIELD = {
-  name:      '施設名',
-  nameEn:    '英語名',
+  name:      '日本語名称（必須）',
+  nameEn:    '英語名称',
   cat:       'カテゴリ',
-  address:   '住所',
+  address:   '日本語住所',
   addressEn: '英語住所',
   phone:     '電話番号',
   lat:       '緯度',
@@ -527,10 +527,10 @@ function showSetupScreen() {
         <h4>📋 Airtable テーブル「施設」のフィールド定義</h4>
         <table class="schema-table">
           <tr><th>フィールド名</th><th>種類</th><th>説明</th></tr>
-          <tr><td>施設名</td><td class="field-type">Single line text</td><td>日本語名称（必須）</td></tr>
-          <tr><td>英語名</td><td class="field-type">Single line text</td><td>英語名称</td></tr>
+          <tr><td>日本語名称（必須）</td><td class="field-type">Single line text</td><td>日本語名称（必須）</td></tr>
+          <tr><td>英語名称</td><td class="field-type">Single line text</td><td>英語名称</td></tr>
           <tr><td>カテゴリ</td><td class="field-type">Single select</td><td>hospital / pharmacy / atm / evacuation / tourism / grocery / restaurant / bar / beauty / shopping / transport / admin</td></tr>
-          <tr><td>住所</td><td class="field-type">Single line text</td><td>日本語住所</td></tr>
+          <tr><td>日本語住所</td><td class="field-type">Single line text</td><td>日本語住所</td></tr>
           <tr><td>英語住所</td><td class="field-type">Single line text</td><td>英語住所</td></tr>
           <tr><td>電話番号</td><td class="field-type">Phone number</td><td>電話番号</td></tr>
           <tr><td>緯度</td><td class="field-type">Number</td><td>例: 34.7025</td></tr>
