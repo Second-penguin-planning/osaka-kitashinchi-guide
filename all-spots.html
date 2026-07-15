@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>全スポットマップ | MG Navi</title>
+<meta name="description" content="北新地・大阪駅・西天満・中之島エリア案内 掲載スポットをGoogle Mapsで見る">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --primary: #1a1a2e; --primary-light: #4a3b6b; --accent: #e53e3e; --gold: #c9a24b; --green: #276749;
+    --bg: #f7fafc; --card-bg: #ffffff; --text: #1a202c; --text-muted: #718096;
+    --border: #e2e8f0; --radius: 12px; --shadow: 0 2px 8px rgba(0,0,0,0.10); --shadow-lg: 0 4px 20px rgba(0,0,0,0.15);
+  }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Hiragino Sans', 'Noto Sans JP', sans-serif; background: var(--bg); color: var(--text); min-height: 100vh; }
+
+  header { background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%); color: white; position: sticky; top: 0; z-index: 100; box-shadow: var(--shadow-lg); }
+  .header-top { display: flex; align-items: center; justify-content: space-between; padding: 16px; gap: 10px; }
+  .back-link { color: white; text-decoration: none; font-size: 13px; background: rgba(255,255,255,0.18); border: 1px solid rgba(255,255,255,0.35); padding: 6px 12px; border-radius: 16px; white-space: nowrap; }
+  .header-title { font-size: 17px; font-weight: 800; }
+  .header-sub { font-size: 11px; opacity: 0.85; margin-top: 2px; }
+  .search-wrap { padding: 0 16px 12px; }
+  .search-input { width: 100%; padding: 9px 14px; border-radius: 24px; border: none; font-size: 14px; outline: none; background: rgba(255,255,255,0.95); }
+
+  main { padding: 0 16px 80px; max-width: 1100px; margin: 0 auto; }
+
+  /* ─── Map panel ─── */
+  .map-panel { background: var(--card-bg); border-radius: var(--radius); box-shadow: var(--shadow); border: 1px solid var(--border); margin: 16px 0; overflow: hidden; }
+  .map-panel-body { padding: 14px 16px; }
+  .map-panel h2 { font-size: 14px; margin-bottom: 6px; color: var(--primary); }
+  .map-panel p { font-size: 12px; color: var(--text-muted); line-height: 1.6; margin-bottom: 8px; }
+  .map-panel ol { font-size: 12px; color: var(--text-muted); line-height: 1.8; margin: 6px 0 10px 18px; }
+  .map-panel a.dl { color: var(--primary-light); font-weight: 600; }
+  .map-row { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 4px; }
+  .btn { display: inline-flex; align-items: center; gap: 6px; border: none; border-radius: 20px; padding: 8px 14px; font-size: 12px; font-weight: 600; cursor: pointer; text-decoration: none; }
+  .btn-primary { background: var(--primary-light); color: white; }
+  .btn-outline { background: white; border: 1px solid var(--border); color: var(--text); }
+  .mid-form { display: flex; gap: 6px; margin-top: 10px; }
+  .mid-form input { flex: 1; min-width: 0; padding: 8px 10px; border-radius: 8px; border: 1px solid var(--border); font-size: 12px; }
+  #mapEmbedWrap { display: none; }
+  #mapEmbedWrap iframe { width: 100%; height: 420px; border: 0; display: block; }
+  #mapEmbedWrap .map-embed-foot { padding: 8px 16px; font-size: 11px; color: var(--text-muted); display: flex; justify-content: space-between; align-items: center; }
+
+  /* ─── Tabs ─── */
+  .cat-tabs { display: flex; gap: 8px; overflow-x: auto; padding: 4px 0 12px; scrollbar-width: none; }
+  .cat-tabs::-webkit-scrollbar { display: none; }
+  .cat-tab { display: flex; flex-direction: column; align-items: center; gap: 4px; background: var(--card-bg); border: 2px solid var(--border); border-radius: 12px; padding: 10px 14px; min-width: 72px; cursor: pointer; transition: all 0.2s; flex-shrink: 0; }
+  .cat-tab.active { border-color: var(--primary-light); background: #f3edf9; }
+  .cat-tab .icon { font-size: 22px; }
+  .cat-tab .label { font-size: 10px; font-weight: 600; color: var(--text-muted); white-space: nowrap; }
+  .cat-tab.active .label { color: var(--primary-light); }
+  .cat-tab .n { font-size: 9px; color: var(--text-muted); }
+
+  .section-header { display: flex; align-items: center; justify-content: space-between; margin: 4px 0 10px; }
+  .count-badge { background: var(--primary-light); color: white; font-size: 10px; padding: 2px 8px; border-radius: 10px; }
+
+  /* ─── Cards ─── */
+  .facilities-grid { display: grid; grid-template-columns: 1fr; gap: 10px; }
+  @media (min-width: 600px) { .facilities-grid { grid-template-columns: 1fr 1fr; } }
+  @media (min-width: 900px) { .facilities-grid { grid-template-columns: 1fr 1fr 1fr; } }
+  .facility-card { background: var(--card-bg); border-radius: var(--radius); padding: 14px; box-shadow: var(--shadow); border: 1px solid var(--border); position: relative; }
+  .facility-card.emergency { border-left: 4px solid var(--accent); }
+  .facility-card.sponsor { border-left: 4px solid var(--gold); }
+  .sponsor-badge { position: absolute; top: 10px; right: 10px; background: var(--gold); color: white; font-size: 9px; font-weight: 700; padding: 2px 7px; border-radius: 8px; }
+  .card-top { display: flex; align-items: flex-start; gap: 10px; margin-bottom: 8px; }
+  .card-cat-icon { font-size: 24px; flex-shrink: 0; }
+  .card-info { flex: 1; min-width: 0; }
+  .card-name { font-size: 14px; font-weight: 700; }
+  .card-name-en { font-size: 11px; color: var(--text-muted); }
+  .card-addr { font-size: 11px; color: var(--text-muted); margin: 6px 0; line-height: 1.5; }
+  .card-tags { display: flex; flex-wrap: wrap; gap: 4px; margin: 6px 0; }
+  .tag { font-size: 10px; padding: 2px 7px; border-radius: 8px; font-weight: 600; background: #f3edf9; color: var(--text-muted); }
+  .tag-open { background: #f0fff4; color: var(--green); }
+  .card-open-map { display: inline-flex; align-items: center; gap: 5px; margin-top: 8px; font-size: 12px; font-weight: 600; color: var(--primary-light); text-decoration: none; }
+  .no-results { text-align: center; padding: 40px 0; color: var(--text-muted); }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-top">
+    <div>
+      <div class="header-title">🗺️ 全スポットマップ</div>
+      <div class="header-sub">MG Navi 掲載スポットを一覧・地図で確認</div>
+    </div>
+    <a class="back-link" href="index.html">← ガイドに戻る</a>
+  </div>
+  <div class="search-wrap">
+    <input class="search-input" id="searchInput" type="search" placeholder="施設・地名を検索...">
+  </div>
+</header>
+
+<main>
+
+  <div class="map-panel">
+    <div class="map-panel-body">
+      <h2>🆘 緊急スポットを1枚の地図で見る</h2>
+      <p>下の一覧は各カードから個別にGoogle Mapsを開けます。病院・避難場所（赤の緊急スポット）だけを1枚の地図に同時ピン表示したい場合は、無料の<strong>Googleマイマップ</strong>に1回だけ取り込むと、この上に地図が埋め込まれます（APIキーは不要です）。</p>
+      <ol id="setupSteps">
+        <li><a class="dl" href="emergency_spots_for_mymaps.csv" download>emergency_spots_for_mymaps.csv</a>（緊急スポット）をダウンロード</li>
+        <li><a class="dl" href="https://www.google.com/maps/d/" target="_blank" rel="noopener">Googleマイマップ</a>を開き「新しい地図を作成」</li>
+        <li>「インポート」から先ほどのCSVを取り込む（位置情報の列は <code>Location</code> を選択。次のステップで緯度・経度としてプロットされているか確認）</li>
+        <li>地図タイトル右の<strong>「⋮」（縦三点リーダー）</strong>メニュー（「共有」ボタンとは別）→「地図をマイサイトに埋め込む」でiframeコードを取得し、下の欄に<strong>src=""の中のURL</strong>だけ貼り付けて保存</li>
+      </ol>
+      <div class="mid-form">
+        <input id="midInput" type="text" placeholder="https://www.google.com/maps/d/embed?mid=... を貼り付け">
+        <button class="btn btn-primary" onclick="saveMid()">保存して表示</button>
+      </div>
+      <div class="map-row">
+        <a class="btn btn-outline" href="emergency_spots.kml" download>⛰ KML形式でダウンロード</a>
+        <button class="btn btn-outline" id="clearMidBtn" onclick="clearMid()" style="display:none;">埋め込みを解除</button>
+      </div>
+    </div>
+    <div id="mapEmbedWrap">
+      <iframe id="mapEmbedFrame" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <div class="map-embed-foot"><span>Googleマイマップ 埋め込み</span></div>
+    </div>
+  </div>
+
+  <div class="cat-tabs" id="catTabs"></div>
+
+  <div class="section-header">
+    <span class="count-badge" id="countBadge">0件</span>
+  </div>
+
+  <div class="facilities-grid" id="grid"></div>
+
+</main>
+
+<script>
+const CAT_ICON = { hospital:'🏥', pharmacy:'💊', atm:'🏧', evacuation:'🆘', tourism:'🗼', restaurant:'🍜', bar:'🍸', beauty:'💇', shopping:'🛍️', grocery:'🛒', transport:'🚃', admin:'🏛️' };
+const CAT_LABEL = { hospital:'病院', pharmacy:'薬局', atm:'銀行/ATM', evacuation:'避難場所', tourism:'観光', restaurant:'飲食', bar:'Bar', beauty:'美容室', shopping:'その他', grocery:'スーパー', transport:'交通', admin:'行政' };
+const CAT_ORDER = ['evacuation','hospital','pharmacy','atm','tourism','restaurant','bar','beauty','shopping','grocery','transport','admin'];
+
+let SPOTS = [];
+let activeCat = 'all';
+let query = '';
+
+function mapsUrl(s) {
+  return `https://www.google.com/maps/search/?api=1&query=${s.lat},${s.lng}`;
+}
+
+function renderTabs() {
+  const counts = {};
+  SPOTS.forEach(s => counts[s.cat] = (counts[s.cat]||0) + 1);
+  const all = `<div class="cat-tab ${activeCat==='all'?'active':''}" onclick="setCat('all')"><div class="icon">🗺️</div><div class="label">すべて</div><div class="n">${SPOTS.length}</div></div>`;
+  const tabs = CAT_ORDER.filter(c => counts[c]).map(c =>
+    `<div class="cat-tab ${activeCat===c?'active':''}" onclick="setCat('${c}')"><div class="icon">${CAT_ICON[c]}</div><div class="label">${CAT_LABEL[c]}</div><div class="n">${counts[c]}</div></div>`
+  ).join('');
+  document.getElementById('catTabs').innerHTML = all + tabs;
+}
+
+function setCat(c) { activeCat = c; renderTabs(); renderGrid(); }
+
+function renderCard(s) {
+  const langNames = {en:'English',zh:'中文',ko:'한국어',ar:'العربية',hi:'हिंदी',bn:'বাংলা',ne:'नेपाली'};
+  const langs = (s.lang||'').split(',').map(x=>x.trim()).filter(Boolean);
+  const feats = (s.feat||'').split(',').map(x=>x.trim()).filter(Boolean).slice(0,3);
+  const langTags = langs.map(l => `<span class="tag">${langNames[l]||l}</span>`).join('');
+  const featTags = feats.map(f => `<span class="tag">${f}</span>`).join('');
+  const openTag = s.h24 ? `<span class="tag tag-open">24時間</span>` : '';
+  const sponsorBadge = s.sponsor ? `<div class="sponsor-badge">★ スポンサー</div>` : '';
+  const cardCls = ['facility-card', s.emergency ? 'emergency' : '', s.sponsor ? 'sponsor' : ''].join(' ').trim();
+  return `<div class="${cardCls}">
+    ${sponsorBadge}
+    <div class="card-top">
+      <div class="card-cat-icon">${CAT_ICON[s.cat]||'📌'}</div>
+      <div class="card-info">
+        <div class="card-name">${s.name}</div>
+        <div class="card-name-en">${s.name_en||''}</div>
+      </div>
+    </div>
+    <div class="card-addr">${s.addr||''}</div>
+    <div class="card-tags">${openTag}${langTags}${featTags}</div>
+    <a class="card-open-map" href="${mapsUrl(s)}" target="_blank" rel="noopener">📍 Google Mapsで開く</a>
+  </div>`;
+}
+
+function renderGrid() {
+  let items = SPOTS;
+  if (activeCat !== 'all') items = items.filter(s => s.cat === activeCat);
+  if (query) {
+    const q = query.toLowerCase();
+    items = items.filter(s => (s.name+s.name_en+s.addr).toLowerCase().includes(q));
+  }
+  document.getElementById('countBadge').textContent = items.length + '件';
+  const grid = document.getElementById('grid');
+  if (items.length === 0) {
+    grid.innerHTML = `<div class="no-results" style="grid-column:1/-1">🔍 該当するスポットが見つかりませんでした</div>`;
+    return;
+  }
+  grid.innerHTML = items.map(renderCard).join('');
+}
+
+document.getElementById('searchInput').addEventListener('input', e => {
+  query = e.target.value.trim();
+  renderGrid();
+});
+
+// ─── My Maps embed (saved locally, no API key needed) ───
+function applyMid(url) {
+  if (!url) return;
+  document.getElementById('mapEmbedFrame').src = url;
+  document.getElementById('mapEmbedWrap').style.display = 'block';
+  document.getElementById('clearMidBtn').style.display = 'inline-flex';
+  document.getElementById('midInput').value = url;
+}
+function saveMid() {
+  const url = document.getElementById('midInput').value.trim();
+  if (!url.startsWith('https://www.google.com/maps/d/embed')) {
+    alert('Googleマイマップの埋め込みURL（https://www.google.com/maps/d/embed?mid=... の形式）を貼り付けてください。');
+    return;
+  }
+  localStorage.setItem('mgnavi_mymaps_embed', url);
+  applyMid(url);
+}
+function clearMid() {
+  localStorage.removeItem('mgnavi_mymaps_embed');
+  document.getElementById('mapEmbedWrap').style.display = 'none';
+  document.getElementById('clearMidBtn').style.display = 'none';
+  document.getElementById('midInput').value = '';
+}
+
+// ─── Load data ───
+fetch('all_spots_data.json')
+  .then(r => r.json())
+  .then(data => {
+    SPOTS = data;
+    renderTabs();
+    renderGrid();
+  })
+  .catch(() => {
+    document.getElementById('grid').innerHTML = `<div class="no-results" style="grid-column:1/-1">データの読み込みに失敗しました</div>`;
+  });
+
+const savedMid = localStorage.getItem('mgnavi_mymaps_embed');
+if (savedMid) applyMid(savedMid);
+</script>
+</body>
+</html>

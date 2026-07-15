@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2"><Document>
+<name>MG Navi 全スポット</name>
+<Folder><name>🆘 避難場所</name>
+<Placemark><name>西天満どんぐり公園（地震時避難場所）</name><description>大阪市北区西天満 / 地震時避難場所</description><Point><coordinates>135.4999,34.6913,0</coordinates></Point></Placemark>
+<Placemark><name>西天満小学校（洪水・津波時避難場所）</name><description>大阪市北区西天満 / 洪水・津波時避難場所</description><Point><coordinates>135.497,34.691,0</coordinates></Point></Placemark>
+<Placemark><name>中之島公園（大規模火災時避難場所）</name><description>大阪市北区中之島 / 大規模火災時避難場所</description><Point><coordinates>135.4988,34.6937,0</coordinates></Point></Placemark>
+<Placemark><name>大阪駅前 帰宅困難者一時滞在施設</name><description>大阪市北区梅田3丁目 / 帰宅困難者対応</description><Point><coordinates>135.4959,34.7025,0</coordinates></Point></Placemark>
+</Folder>
+<Folder><name>🏥 病院</name>
+<Placemark><name>医学研究所北野病院</name><description>大阪市北区扇町2-4-20 / 06-6312-1221 / 総合病院, 救急対応</description><Point><coordinates>135.5068,34.7011,0</coordinates></Point></Placemark>
+<Placemark><name>大阪市立総合医療センター</name><description>大阪市都島区都島本通2-13-22 / 06-6929-1221 / 救急24時間, 高度医療</description><Point><coordinates>135.529,34.7075,0</coordinates></Point></Placemark>
+</Folder>
+<Folder><name>🗼 観光</name>
+<Placemark><name>露天神社（お初天神）</name><description>大阪市北区曾根崎2-5-4 / 06-6311-0895 / 曽根崎心中ゆかりの神社, 縁結び, 北新地エリア</description><Point><coordinates>135.499,34.7008,0</coordinates></Point></Placemark>
+<Placemark><name>大阪市中央公会堂</name><description>大阪市北区中之島1-1-27 / 06-6208-2002 / 重要文化財, 中之島のシンボル, 見学無料</description><Point><coordinates>135.4998,34.6937,0</coordinates></Point></Placemark>
+<Placemark><name>大阪市立東洋陶磁美術館</name><description>大阪市北区中之島1-1-26 / 06-6223-0055 / 国宝収蔵, 陶磁器コレクション</description><Point><coordinates>135.4995,34.6939,0</coordinates></Point></Placemark>
+<Placemark><name>国立国際美術館</name><description>大阪市北区中之島4-2-55 / 06-6447-4680 / 現代美術, 地下型美術館</description><Point><coordinates>135.493,34.6907,0</coordinates></Point></Placemark>
+<Placemark><name>大阪市立科学館</name><description>大阪市北区中之島4-2-1 / 06-6444-5656 / プラネタリウム, 体験展示</description><Point><coordinates>135.4924,34.6906,0</coordinates></Point></Placemark>
+</Folder>
+<Folder><name>🚃 交通</name>
+<Placemark><name>JR大阪駅</name><description>大阪市北区梅田3丁目 / JR, 新幹線接続</description><Point><coordinates>135.4959,34.7025,0</coordinates></Point></Placemark>
+<Placemark><name>大阪メトロ 東梅田駅</name><description>大阪市北区曽根崎2丁目 / 谷町線</description><Point><coordinates>135.5,34.701,0</coordinates></Point></Placemark>
+<Placemark><name>JR北新地駅（JR東西線）</name><description>大阪市北区曽根崎新地 / JR東西線</description><Point><coordinates>135.4972,34.696,0</coordinates></Point></Placemark>
+</Folder>
+<Folder><name>🏛️ 行政</name>
+<Placemark><name>大阪市北区役所</name><description>大阪市北区扇町2丁目1-27 / 06-6313-9963 / 区役所</description><Point><coordinates>135.5063,34.6989,0</coordinates></Point></Placemark>
+<Placemark><name>大阪市外国人総合相談センター</name><description>大阪市北区 / 06-6773-6533 / 多言語相談</description><Point><coordinates>135.494,34.6998,0</coordinates></Point></Placemark>
+</Folder>
+</Document></kml>

@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Kitashinchi Navi | 北新地・大阪駅 地域案内</title>
+<title>MG Navi | 北新地・大阪駅 地域案内</title>
 <meta name="description" content="大阪駅・北新地・西天満・中之島エリアのQRコード地域案内サービス（MGナビ）">
 <style>
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -188,13 +188,15 @@
     <div class="logo">
       <div class="logo-icon">🏙️</div>
       <div>
-        <div class="logo-text">Kitashinchi<span class="accent">Navi</span></div>
+        <div class="logo-text">MG <span class="accent">Navi</span></div>
         <div class="logo-sub" data-i18n="tagline">大阪駅・北新地・西天満・中之島 地域案内</div>
       </div>
     </div>
     <div class="lang-selector">
       <button class="lang-btn active" onclick="setLang('ja')">日本語</button>
       <button class="lang-btn" onclick="setLang('en')">EN</button>
+      <button class="lang-btn" onclick="setLang('zh')">中文</button>
+      <button class="lang-btn" onclick="setLang('ko')">한국어</button>
     </div>
   </div>
   <div class="sos-banner">
@@ -204,6 +206,9 @@
   <div class="search-wrap">
     <input class="search-input" type="search" id="searchInput" placeholder="施設・地名を検索 / Search..." oninput="handleSearch(this.value)">
     <button class="location-btn" id="locBtn" onclick="openLocModal()">📍 <span id="locLabel">大阪駅（変更▼）</span></button>
+  </div>
+  <div class="search-wrap" style="padding-top:0;">
+    <a class="location-btn" href="all-spots.html" style="display:inline-block; text-decoration:none;">🗺️ 全スポットを地図で見る</a>
   </div>
   <div class="travel-toggle">
     <button class="travel-btn active" id="travel-walking"   onclick="setTravel('walking')">🚶 徒歩</button>
@@ -220,6 +225,7 @@
   <div class="cat-tab emergency" data-cat="hospital" onclick="setCategory('hospital')"><div class="icon">🏥</div><div class="label" data-i18n="cat_hospital">病院</div></div>
   <div class="cat-tab emergency" data-cat="pharmacy" onclick="setCategory('pharmacy')"><div class="icon">💊</div><div class="label" data-i18n="cat_pharmacy">薬局</div></div>
   <div class="cat-tab" data-cat="atm" onclick="setCategory('atm')"><div class="icon">🏧</div><div class="label" data-i18n="cat_atm">銀行/ATM</div></div>
+  <div class="cat-tab" data-cat="tourism" onclick="setCategory('tourism')"><div class="icon">🗼</div><div class="label" data-i18n="cat_tourism">観光</div></div>
   <div class="cat-tab" data-cat="grocery" onclick="setCategory('grocery')"><div class="icon">🛒</div><div class="label" data-i18n="cat_grocery">スーパー</div></div>
   <div class="cat-tab" data-cat="restaurant" onclick="setCategory('restaurant')"><div class="icon">🍜</div><div class="label" data-i18n="cat_restaurant">飲食</div></div>
   <div class="cat-tab nightlife" data-cat="bar" onclick="setCategory('bar')"><div class="icon">🍸</div><div class="label" data-i18n="cat_bar">Bar</div></div>
@@ -273,7 +279,7 @@
 
 <script>
 // ══════════════════════════════════════════════════════════════
-//  Kitashinchi Navi - Airtable連携版
+//  MG Navi - Airtable連携版
 //  実店舗データは Airtable で管理。未設定時はセットアップ画面 or デモデータ表示。
 //  ★ AIRTABLE 設定：Personal Access Token と Base ID をここに埋め込むか、
 //  初回アクセス時にブラウザ上の設定画面から入力してください。
@@ -309,7 +315,7 @@ const i18n = {
   ja: {
     tagline:'大阪駅・北新地・西天満・中之島 地域案内', sos_text:'緊急時・困ったとき', sos_btn:'緊急番号を見る',
     cat_all:'すべて', cat_hospital:'病院', cat_pharmacy:'薬局', cat_atm:'銀行/ATM', cat_evacuation:'避難場所',
-    cat_grocery:'スーパー', cat_restaurant:'飲食', cat_bar:'Bar', cat_beauty:'美容室', cat_shopping:'その他',
+    cat_tourism:'観光', cat_grocery:'スーパー', cat_restaurant:'飲食', cat_bar:'Bar', cat_beauty:'美容室', cat_shopping:'その他',
     cat_transport:'交通', cat_admin:'行政',
     btn_directions:'経路案内', btn_call:'電話する', btn_website:'ウェブサイト', open_now:'24時間',
     records:'件', all_facilities:'すべての施設', loading:'施設データを読込中...', loaded_from:'キャッシュから読込',
@@ -318,11 +324,29 @@ const i18n = {
   en: {
     tagline:'Osaka Station / Kitashinchi / Nishitenma / Nakanoshima Area Guide', sos_text:'Emergency / Need Help', sos_btn:'Emergency Numbers',
     cat_all:'All', cat_hospital:'Hospital', cat_pharmacy:'Pharmacy', cat_atm:'Bank/ATM', cat_evacuation:'Shelter',
-    cat_grocery:'Grocery', cat_restaurant:'Food', cat_bar:'Bar', cat_beauty:'Beauty', cat_shopping:'Other',
+    cat_tourism:'Tourism', cat_grocery:'Grocery', cat_restaurant:'Food', cat_bar:'Bar', cat_beauty:'Beauty', cat_shopping:'Other',
     cat_transport:'Transit', cat_admin:'Admin',
     btn_directions:'Directions', btn_call:'Call', btn_website:'Website', open_now:'24h',
     records:' results', all_facilities:'All Facilities', loading:'Loading facilities...', loaded_from:'Loaded from cache',
     legal_bar:'🍸 In the Kitashinchi area, venues requiring an entertainment business license (clubs, cabarets, etc.) are not listed here. Only dining bars, wine bars, and hotel bars that do not require such licensing are included.',
+  },
+  zh: {
+    tagline:'大阪站・北新地・西天满・中之岛 地区指南', sos_text:'紧急情况 / 需要帮助', sos_btn:'紧急电话',
+    cat_all:'全部', cat_hospital:'医院', cat_pharmacy:'药局', cat_atm:'银行/ATM', cat_evacuation:'避难所',
+    cat_tourism:'观光', cat_grocery:'超市', cat_restaurant:'餐饮', cat_bar:'酒吧', cat_beauty:'美容院', cat_shopping:'其他',
+    cat_transport:'交通', cat_admin:'行政',
+    btn_directions:'路线导航', btn_call:'拨打电话', btn_website:'网站', open_now:'24小时',
+    records:'件', all_facilities:'所有设施', loading:'正在加载设施数据...', loaded_from:'来自缓存',
+    legal_bar:'🍸 在北新地地区，需要风俗营业许可的店铺（夜总会、卡巴莱等）不在本站列出。仅收录无需此类许可的餐酒吧、红酒吧、酒店酒吧等。',
+  },
+  ko: {
+    tagline:'오사카역・기타신치・니시텐마・나카노시마 지역 안내', sos_text:'긴급 상황 / 도움이 필요할 때', sos_btn:'긴급 번호 보기',
+    cat_all:'전체', cat_hospital:'병원', cat_pharmacy:'약국', cat_atm:'은행/ATM', cat_evacuation:'대피소',
+    cat_tourism:'관광', cat_grocery:'슈퍼마켓', cat_restaurant:'음식', cat_bar:'바', cat_beauty:'미용실', cat_shopping:'기타',
+    cat_transport:'교통', cat_admin:'행정',
+    btn_directions:'경로 안내', btn_call:'전화', btn_website:'웹사이트', open_now:'24시간',
+    records:'건', all_facilities:'전체 시설', loading:'시설 데이터를 불러오는 중...', loaded_from:'캐시에서 로드',
+    legal_bar:'🍸 기타신치 지역에서는 풍속영업 허가가 필요한 업소(클럽, 카바레 등)는 게재하지 않습니다. 다이닝 바, 와인 바, 호텔 바 등 해당 허가가 필요 없는 업종만 게재합니다.',
   },
 };
 let currentLang = 'ja';
@@ -374,9 +398,14 @@ const DEMO_FACILITIES = [
   { name:'ペットショップ 扇町（サンプル）', nameEn:'Pet Shop Ogimachi (Sample)', cat:'shopping', address:'大阪市北区扇町', lat:34.6992, lng:135.5060, emergency:false, sponsor:false, open24:false, features:['ペットショップ'], langs:[] },
   { name:'JR大阪駅', nameEn:'JR Osaka Station', cat:'transport', address:'大阪市北区梅田3丁目', lat:34.7025, lng:135.4959, emergency:false, sponsor:false, open24:false, features:['JR','新幹線接続'], langs:['en'] },
   { name:'大阪メトロ 東梅田駅', nameEn:'Osaka Metro Higashi-Umeda Station', cat:'transport', address:'大阪市北区曽根崎2丁目', lat:34.7010, lng:135.5000, emergency:false, sponsor:false, open24:false, features:['谷町線'], langs:[] },
-  { name:'大阪メトロ 北新地駅（JR東西線）', nameEn:'Kitashinchi Station (JR Tozai Line)', cat:'transport', address:'大阪市北区曽根崎新地', lat:34.6960, lng:135.4972, emergency:false, sponsor:false, open24:false, features:['JR東西線'], langs:[] },
+  { name:'JR北新地駅（JR東西線）', nameEn:'Kitashinchi Station (JR Tozai Line)', cat:'transport', address:'大阪市北区曽根崎新地', lat:34.6960, lng:135.4972, emergency:false, sponsor:false, open24:false, features:['JR東西線'], langs:[] },
   { name:'大阪市北区役所', nameEn:'Osaka City Kita Ward Office', cat:'admin', address:'大阪市北区扇町2丁目', phone:'06-6313-9963', lat:34.6989, lng:135.5063, emergency:false, sponsor:false, open24:false, features:['区役所'], langs:['en'] },
   { name:'大阪市外国人総合相談センター', nameEn:'Osaka City International Community Consultation Center', cat:'admin', address:'大阪市北区', phone:'06-6773-6533', lat:34.6998, lng:135.4940, emergency:false, sponsor:false, open24:false, features:['多言語相談'], langs:['en'] },
+  { name:'露天神社（お初天神）', nameEn:'Tsuyu Tenjin Shrine (Ohatsu Tenjin)', cat:'tourism', address:'大阪市北区曾根崎2-5-4', phone:'06-6311-0895', lat:34.7008, lng:135.4990, emergency:false, sponsor:false, open24:false, features:['曽根崎心中ゆかりの神社','縁結び'], langs:['en'] },
+  { name:'大阪市中央公会堂', nameEn:'Osaka City Central Public Hall', cat:'tourism', address:'大阪市北区中之島1-1-27', phone:'06-6208-2002', lat:34.6937, lng:135.4998, emergency:false, sponsor:false, open24:false, features:['重要文化財','見学無料'], langs:['en'], website:'https://www.osaka-chuokokaido.com' },
+  { name:'大阪市立東洋陶磁美術館', nameEn:'Museum of Oriental Ceramics, Osaka', cat:'tourism', address:'大阪市北区中之島1-1-26', phone:'06-6223-0055', lat:34.6939, lng:135.4995, emergency:false, sponsor:false, open24:false, features:['国宝収蔵','陶磁器'], langs:['en'], website:'https://www.moco.or.jp' },
+  { name:'国立国際美術館', nameEn:'The National Museum of Art, Osaka', cat:'tourism', address:'大阪市北区中之島4-2-55', phone:'06-6447-4680', lat:34.6907, lng:135.4930, emergency:false, sponsor:false, open24:false, features:['現代美術'], langs:['en'], website:'https://www.nmao.go.jp' },
+  { name:'大阪市立科学館', nameEn:'Osaka Science Museum', cat:'tourism', address:'大阪市北区中之島4-2-1', phone:'06-6444-5656', lat:34.6906, lng:135.4924, emergency:false, sponsor:false, open24:false, features:['プラネタリウム','体験展示'], langs:['en'], website:'https://www.sci-museum.jp' },
 ];
 
 // ─── Airtable: 全件取得（ページネーション対応）───────────────
@@ -429,7 +458,7 @@ function mapRecord(rec) {
 }
 
 // ─── Cache ───────────────────────────────────────────────────
-const CACHE_KEY = 'kitashinchinavi_facilities_v1';
+const CACHE_KEY = 'mgnavi_facilities_v1';
 function saveCache(data) { try { localStorage.setItem(CACHE_KEY, JSON.stringify({ ts: Date.now(), data })); } catch(e) {} }
 function loadCache(minutes) {
   try {
@@ -443,7 +472,7 @@ function loadCache(minutes) {
 function clearCache() { localStorage.removeItem(CACHE_KEY); alert('キャッシュを削除しました。再読み込みします。'); location.reload(); }
 
 // ─── Config storage ──────────────────────────────────────────
-const CONF_KEY = 'kitashinchinavi_airtable_config';
+const CONF_KEY = 'mgnavi_airtable_config';
 function getConfig() {
   if (AIRTABLE_CONFIG.apiKey && AIRTABLE_CONFIG.baseId) return AIRTABLE_CONFIG;
   try {
@@ -500,13 +529,13 @@ function showSetupScreen() {
           <tr><th>フィールド名</th><th>種類</th><th>説明</th></tr>
           <tr><td>施設名</td><td class="field-type">Single line text</td><td>日本語名称（必須）</td></tr>
           <tr><td>英語名</td><td class="field-type">Single line text</td><td>英語名称</td></tr>
-          <tr><td>カテゴリ</td><td class="field-type">Single select</td><td>hospital / pharmacy / atm / evacuation / grocery / restaurant / bar / beauty / shopping / transport / admin</td></tr>
+          <tr><td>カテゴリ</td><td class="field-type">Single select</td><td>hospital / pharmacy / atm / evacuation / tourism / grocery / restaurant / bar / beauty / shopping / transport / admin</td></tr>
           <tr><td>住所</td><td class="field-type">Single line text</td><td>日本語住所</td></tr>
           <tr><td>英語住所</td><td class="field-type">Single line text</td><td>英語住所</td></tr>
           <tr><td>電話番号</td><td class="field-type">Phone number</td><td>電話番号</td></tr>
           <tr><td>緯度</td><td class="field-type">Number</td><td>例: 34.7025</td></tr>
           <tr><td>経度</td><td class="field-type">Number</td><td>例: 135.4959</td></tr>
-          <tr><td>対応言語</td><td class="field-type">Multiple select</td><td>en</td></tr>
+          <tr><td>対応言語</td><td class="field-type">Multiple select</td><td>en / zh / ko / ar / hi / bn / ne</td></tr>
           <tr><td>特徴</td><td class="field-type">Multiple select</td><td>ラーメン・風営法対象外 等（Barカテゴリは必ず「風営法対象外」を明記）</td></tr>
           <tr><td>24時間営業</td><td class="field-type">Checkbox</td><td>✓ で24h表示</td></tr>
           <tr><td>緊急施設</td><td class="field-type">Checkbox</td><td>✓ で赤枠表示</td></tr>
@@ -591,7 +620,10 @@ function setLang(lang) {
   document.querySelectorAll('.lang-btn').forEach(b => b.classList.remove('active'));
   document.querySelector(`.lang-btn[onclick="setLang('${lang}')"]`).classList.add('active');
   document.querySelectorAll('[data-i18n]').forEach(el => { el.textContent = t(el.dataset.i18n); });
-  document.getElementById('searchInput').placeholder = lang === 'ja' ? '施設・地名を検索...' : 'Search facilities...';
+  document.getElementById('searchInput').placeholder =
+    lang === 'ja' ? '施設・地名を検索...' :
+    lang === 'zh' ? '搜索设施...' :
+    lang === 'ko' ? '시설 검색...' : 'Search facilities...';
   renderMain();
 }
 
@@ -636,7 +668,7 @@ function renderMain() {
       <div class="sponsor-names">セコンドペンギン企画　／　德永良雄行政書士事務所</div>
       <div class="sponsor-contact">info@second-penguin.com</div>
       <p style="margin-top:10px;font-size:12px;opacity:0.85;">北新地・大阪駅エリアの掲載店舗を募集中です。</p>
-      <a href="mailto:info@second-penguin.com?subject=Kitashinchi Navi 掲載申込" class="btn-sponsor-join">掲載申込みはこちら</a>
+      <a href="mailto:info@second-penguin.com?subject=MG Navi 掲載申込" class="btn-sponsor-join">掲載申込みはこちら</a>
     </div>
   `;
   renderCards();
@@ -662,7 +694,7 @@ function getDistance(lat1, lng1, lat2, lng2) {
   return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
 }
 function getCatIcon(cat) {
-  return { hospital:'🏥', pharmacy:'💊', atm:'🏧', evacuation:'🆘', grocery:'🛒', restaurant:'🍜', bar:'🍸', beauty:'💇', shopping:'🛍️', transport:'🚃', admin:'🏛️' }[cat] || '📌';
+  return { hospital:'🏥', pharmacy:'💊', atm:'🏧', evacuation:'🆘', tourism:'🗼', grocery:'🛒', restaurant:'🍜', bar:'🍸', beauty:'💇', shopping:'🛍️', transport:'🚃', admin:'🏛️' }[cat] || '📌';
 }
 
 function renderCards() {
@@ -709,7 +741,7 @@ function renderCard(f) {
   const d = getDistance(userLat, userLng, f.lat, f.lng);
   const distText = d < 1000 ? `📍 ${Math.round(d)}m` : `📍 ${(d/1000).toFixed(1)}km`;
 
-  const langNames = { en:'English' };
+  const langNames = { en:'English', zh:'中文', ko:'한국어', ar:'العربية', hi:'हिंदी', bn:'বাংলা', ne:'नेपाली' };
   const langTags = (f.langs||[]).map(l => `<span class="tag tag-lang">${langNames[l]||l}</span>`).join('');
   const featureTags = (f.features||[]).slice(0,3).map(x => `<span class="tag ${f.cat==='bar'?'tag-legal':'tag-feature'}">${x}</span>`).join('');
   const openTag = f.open24 ? `<span class="tag tag-open">${t('open_now')}</span>` : '';

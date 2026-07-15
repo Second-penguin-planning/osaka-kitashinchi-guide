@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2"><Document>
+<name>MG Navi 緊急スポット</name>
+<Folder><name>🆘 避難場所</name>
+<Placemark><name>西天満どんぐり公園（地震時避難場所）</name><description>大阪市北区西天満 / 地震時避難場所</description><Point><coordinates>135.4999,34.6913,0</coordinates></Point></Placemark>
+<Placemark><name>西天満小学校（洪水・津波時避難場所）</name><description>大阪市北区西天満 / 洪水・津波時避難場所</description><Point><coordinates>135.497,34.691,0</coordinates></Point></Placemark>
+<Placemark><name>中之島公園（大規模火災時避難場所）</name><description>大阪市北区中之島 / 大規模火災時避難場所</description><Point><coordinates>135.4988,34.6937,0</coordinates></Point></Placemark>
+<Placemark><name>大阪駅前 帰宅困難者一時滞在施設</name><description>大阪市北区梅田3丁目 / 帰宅困難者対応</description><Point><coordinates>135.4959,34.7025,0</coordinates></Point></Placemark>
+</Folder>
+<Folder><name>🏥 病院</name>
+<Placemark><name>医学研究所北野病院</name><description>大阪市北区扇町2-4-20 / 06-6312-1221 / 総合病院, 救急対応</description><Point><coordinates>135.5068,34.7011,0</coordinates></Point></Placemark>
+<Placemark><name>大阪市立総合医療センター</name><description>大阪市都島区都島本通2-13-22 / 06-6929-1221 / 救急24時間, 高度医療</description><Point><coordinates>135.529,34.7075,0</coordinates></Point></Placemark>
+</Folder>
+</Document></kml>
