@@ -736,9 +736,12 @@ function renderCards() {
 }
 
 function renderCard(f) {
-  const origin = `&origin=${userLat},${userLng}`;
-  const mapsUrl = `https://www.google.com/maps/dir/?api=1${origin}&destination=${f.lat},${f.lng}&travelmode=${travelMode}`;
   const d = getDistance(userLat, userLng, f.lat, f.lng);
+  // If origin and destination are effectively the same point, Google Maps
+  // can fail to render a route — omit origin so it falls back to the
+  // device's live location instead.
+  const origin = d < 30 ? '' : `&origin=${userLat},${userLng}`;
+  const mapsUrl = `https://www.google.com/maps/dir/?api=1${origin}&destination=${f.lat},${f.lng}&travelmode=${travelMode}`;
   const distText = d < 1000 ? `📍 ${Math.round(d)}m` : `📍 ${(d/1000).toFixed(1)}km`;
 
   const langNames = { en:'English', zh:'中文', ko:'한국어', ar:'العربية', hi:'हिंदी', bn:'বাংলা', ne:'नेपाली' };
