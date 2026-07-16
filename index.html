@@ -32,9 +32,12 @@
   .logo-text { font-size: 20px; font-weight: 800; }
   .logo-text .accent { color: var(--gold); }
   .logo-sub { font-size: 10px; opacity: 0.8; letter-spacing: 0.5px; }
+  .header-right { display: flex; align-items: center; gap: 14px; }
   .lang-selector { display: flex; gap: 4px; }
   .lang-btn { background: rgba(255,255,255,0.15); border: 1px solid rgba(255,255,255,0.3); color: white; padding: 4px 8px; border-radius: 6px; font-size: 11px; cursor: pointer; transition: background 0.2s; }
   .lang-btn:hover, .lang-btn.active { background: rgba(201,162,75,0.55); }
+  .qr-btn { background: rgba(255,255,255,0.15); border: 1px solid rgba(255,255,255,0.3); color: white; padding: 4px 10px; border-radius: 6px; font-size: 11px; cursor: pointer; white-space: nowrap; transition: background 0.2s; }
+  .qr-btn:hover { background: rgba(201,162,75,0.55); }
   .sos-banner { background: var(--accent); padding: 8px 16px; display: flex; align-items: center; justify-content: space-between; gap: 8px; }
   .sos-banner span { font-size: 13px; font-weight: 600; color: white; }
   .sos-btn { background: white; color: var(--accent); border: none; padding: 5px 14px; border-radius: 20px; font-size: 12px; font-weight: 700; cursor: pointer; }
@@ -192,11 +195,14 @@
         <div class="logo-sub" data-i18n="tagline">大阪駅・北新地・西天満・中之島 地域案内</div>
       </div>
     </div>
-    <div class="lang-selector">
-      <button class="lang-btn active" onclick="setLang('ja')">日本語</button>
-      <button class="lang-btn" onclick="setLang('en')">EN</button>
-      <button class="lang-btn" onclick="setLang('zh')">中文</button>
-      <button class="lang-btn" onclick="setLang('ko')">한국어</button>
+    <div class="header-right">
+      <button class="qr-btn" onclick="openQR()">📱 案内QR</button>
+      <div class="lang-selector">
+        <button class="lang-btn active" onclick="setLang('ja')">日本語</button>
+        <button class="lang-btn" onclick="setLang('en')">EN</button>
+        <button class="lang-btn" onclick="setLang('zh')">中文</button>
+        <button class="lang-btn" onclick="setLang('ko')">한국어</button>
+      </div>
     </div>
   </div>
   <div class="sos-banner">
@@ -274,6 +280,19 @@
       <a class="emergency-card" href="https://www.osaka-info.jp/" target="_blank"><div class="e-icon">🏢</div><div class="e-title">大阪駅前 一時滞在施設</div><div class="e-num">帰宅困難者対応</div><div class="e-desc">災害時開設情報</div></a>
     </div>
     <button class="modal-close" onclick="closeSOS()">閉じる / Close</button>
+  </div>
+</div>
+
+<!-- ─── QR MODAL ─── -->
+<div class="modal-overlay" id="qrModal" onclick="if(event.target===this)closeQR()">
+  <div class="modal" style="max-width:360px; text-align:center;">
+    <div class="modal-handle"></div>
+    <div style="font-size:36px; margin-bottom:4px;">🏙️</div>
+    <div style="font-size:22px; font-weight:800; color:var(--primary); margin-bottom:16px;">MG <span class="accent" style="color:var(--gold);">Navi</span></div>
+    <img src="https://api.qrserver.com/v1/create-qr-code/?size=260x260&data=https%3A%2F%2Fsecond-penguin-planning.github.io%2Fosaka-kitashinchi-guide%2F"
+         alt="MG Navi QRコード" width="260" height="260" style="display:block; margin:0 auto 16px; border-radius:8px;">
+    <p style="font-size:12px; color:var(--text-muted); line-height:1.6;">このQRコードを読み取ると、MG Naviのトップページが開きます。<br>店頭・チラシなどにご利用ください。</p>
+    <button class="modal-close" onclick="closeQR()">閉じる / Close</button>
   </div>
 </div>
 
@@ -830,6 +849,10 @@ function autoDetectLocation() {
 // ─── SOS Modal ───────────────────────────────────────────────
 function openSOS() { document.getElementById('sosModal').classList.add('open'); document.body.style.overflow='hidden'; }
 function closeSOS() { document.getElementById('sosModal').classList.remove('open'); document.body.style.overflow=''; }
+
+// ─── QR Modal ────────────────────────────────────────────────
+function openQR() { document.getElementById('qrModal').classList.add('open'); document.body.style.overflow='hidden'; }
+function closeQR() { document.getElementById('qrModal').classList.remove('open'); document.body.style.overflow=''; }
 
 // ─── Init ────────────────────────────────────────────────────
 // ─── Static Data (published snapshot, no credentials required) ─
