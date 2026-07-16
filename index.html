@@ -789,7 +789,11 @@ function renderCard(f) {
   // can fail to render a route — omit origin so it falls back to the
   // device's live location instead.
   const origin = d < 30 ? '' : `&origin=${userLat},${userLng}`;
-  const mapsUrl = `https://www.google.com/maps/dir/?api=1${origin}&destination=${f.lat},${f.lng}&travelmode=${travelMode}`;
+  // Use a name+address text query (not raw lat,lng) so Google Maps resolves
+  // an actual named place and drops a labeled pin, instead of sometimes
+  // showing neither a name nor a pin for bare coordinates.
+  const destQuery = encodeURIComponent(`${f.name} ${f.address}`.trim());
+  const mapsUrl = `https://www.google.com/maps/dir/?api=1${origin}&destination=${destQuery}&travelmode=${travelMode}`;
   const distText = d < 1000 ? `📍 ${Math.round(d)}m` : `📍 ${(d/1000).toFixed(1)}km`;
 
   const langNames = { en:'English', zh:'中文', ko:'한국어', ar:'العربية', hi:'हिंदी', bn:'বাংলা', ne:'नेपाली' };
