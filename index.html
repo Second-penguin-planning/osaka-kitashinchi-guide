@@ -824,14 +824,31 @@ function openSOS() { document.getElementById('sosModal').classList.add('open'); 
 function closeSOS() { document.getElementById('sosModal').classList.remove('open'); document.body.style.overflow=''; }
 
 // ─── Init ────────────────────────────────────────────────────
+// ─── Static Data (published snapshot, no credentials required) ─
+const STATIC_DATA_URL = 'facilities_data.json';
+async function loadStaticData() {
+  showLoading('施設データを読込中...');
+  try {
+    const res = await fetch(STATIC_DATA_URL, { cache: 'no-store' });
+    if (!res.ok) throw new Error('static data not found');
+    allFacilities = await res.json();
+    fromCache = false;
+    isDemoMode = false;
+    renderMain();
+  } catch (err) {
+    showSetupScreen();
+  }
+}
+
 async function init() {
   const cfg = getConfig();
-  if (!cfg || !cfg.apiKey || !cfg.baseId) {
-    showSetupScreen();
+  if (cfg && cfg.apiKey && cfg.baseId) {
+    autoDetectLocation();
+    await loadAndRender(cfg);
     return;
   }
   autoDetectLocation();
-  await loadAndRender(cfg);
+  await loadStaticData();
 }
 
 document.addEventListener('DOMContentLoaded', init);

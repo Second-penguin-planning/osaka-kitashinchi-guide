@@ -1,0 +1,3221 @@
+[
+  {
+    "id": "rec0hRJcmjyvgLbnK",
+    "name": "梅田スカイビル空中庭園展望台",
+    "nameEn": "Umeda Sky Building Floating Garden Observatory",
+    "cat": "tourism",
+    "address": "大阪市北区大淀中1-1-88",
+    "addressEn": "1-1-88 Oyodonaka, Kita-ku, Osaka",
+    "phone": "06-6440-3855",
+    "lat": 34.7054,
+    "lng": 135.4906,
+    "langs": [
+      "en",
+      "zh",
+      "ko"
+    ],
+    "features": [
+      "地上173mの屋上展望台",
+      "大阪の代表的近未来建築"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": "https://www.skybldg.co.jp/"
+  },
+  {
+    "id": "rec199q23YbqOud9X",
+    "name": "傳火（ヒルトン大阪）",
+    "nameEn": "Tenka Teppanyaki Hilton Osaka",
+    "cat": "restaurant",
+    "address": "大阪府大阪市北区梅田1-8-8 ヒルトン大阪2F",
+    "addressEn": "",
+    "phone": "06-6347-0310",
+    "lat": 34.7021,
+    "lng": 135.4963,
+    "langs": [],
+    "features": [
+      "鉄板焼き",
+      "ホテル内",
+      "ヒルトン大阪"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": "https://osaka.hiltonjapan.co.jp/restaurants/tenka"
+  },
+  {
+    "id": "rec1R9kpARCl2Gi2B",
+    "name": "割鮮 入たに",
+    "nameEn": "Kassen Iritani",
+    "cat": "restaurant",
+    "address": "大阪府大阪市北区曽根崎新地1-8-6 山忠ビル1号館1F",
+    "addressEn": "",
+    "phone": "080-3867-1232",
+    "lat": 34.698,
+    "lng": 135.4985,
+    "langs": [],
+    "features": [
+      "割烹",
+      "和食",
+      "接待"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": "https://www.kassen-iritani.com/"
+  },
+  {
+    "id": "rec1WLKKHuoN1w6DM",
+    "name": "THE AURIENTAL（ジ オリエンタル）",
+    "nameEn": "The Auriental",
+    "cat": "bar",
+    "address": "大阪府大阪市北区曽根崎新地1-5-7 森ビル3F",
+    "addressEn": "",
+    "phone": "06-6348-1008",
+    "lat": 34.6968,
+    "lng": 135.498,
+    "langs": [],
+    "features": [
+      "風営法対象外",
+      "オーセンティックバー",
+      "オリジナルカクテル"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": "https://theauriental.com/"
+  },
+  {
+    "id": "rec1Z1nBGR1QZvZ1L",
+    "name": "平和樓",
+    "nameEn": "Heiwaro",
+    "cat": "restaurant",
+    "address": "大阪府大阪市北区角田町9-26 新梅田食道街1F",
+    "addressEn": "",
+    "phone": "06-6311-4704",
+    "lat": 34.7029,
+    "lng": 135.4972,
+    "langs": [],
+    "features": [
+      "中華料理",
+      "老舗",
+      "新梅田食道街"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": null
+  },
+  {
+    "id": "rec2dZsTDPeHI0z1Y",
+    "name": "北新地 福多亭",
+    "nameEn": "Kitashinchi Fukutatei",
+    "cat": "restaurant",
+    "address": "大阪府大阪市北区曽根崎新地1-11-19 北新地スタービルB1F",
+    "addressEn": "",
+    "phone": "06-6341-8588",
+    "lat": 34.6987,
+    "lng": 135.4993,
+    "langs": [],
+    "features": [
+      "ステーキ",
+      "窯焼き",
+      "北新地"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": "http://www.fukutatei.com/"
+  },
+  {
+    "id": "rec2rImjgRKWn33FR",
+    "name": "京松蘭 南森町",
+    "nameEn": "Kyoshoran Minami-Morimachi",
+    "cat": "restaurant",
+    "address": "大阪府大阪市北区天神橋3-2-2 NAGAYA200",
+    "addressEn": "",
+    "phone": "06-6353-7666",
+    "lat": 34.6978,
+    "lng": 135.5138,
+    "langs": [],
+    "features": [
+      "焼肉",
+      "個室",
+      "南森町"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": null
+  },
+  {
+    "id": "rec2tPx9Eok0Mc75k",
+    "name": "お好み焼 きじ 本店",
+    "nameEn": "Okonomiyaki Kiji Honten",
+    "cat": "restaurant",
+    "address": "大阪府大阪市北区角田町9-20 新梅田食道街",
+    "addressEn": "",
+    "phone": "06-6361-5804",
+    "lat": 34.703,
+    "lng": 135.4973,
+    "langs": [],
+    "features": [
+      "お好み焼き",
+      "老舗",
+      "新梅田食道街"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": null
+  },
+  {
+    "id": "rec3ICf5CTK0e9yKL",
+    "name": "大阪メトロ南森町駅",
+    "nameEn": "Osaka Metro Minami-morimachi Station",
+    "cat": "transport",
+    "address": "大阪市北区南森町2丁目1-4",
+    "addressEn": "2-1-4 Minami-morimachi, Kita-ku, Osaka",
+    "phone": null,
+    "lat": 34.696,
+    "lng": 135.5127,
+    "langs": [],
+    "features": [
+      "谷町線・堺筋線の乗換駅",
+      "大阪天満宮に近い"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": "https://subway.osakametro.co.jp/station_guide/T/t21/"
+  },
+  {
+    "id": "rec3NnJDyLNw3eink",
+    "name": "割烹 ふじ久",
+    "nameEn": "Kappo Fujikyu",
+    "cat": "restaurant",
+    "address": "大阪府大阪市北区曽根崎新地1-2-13",
+    "addressEn": "",
+    "phone": "050-5485-8335",
+    "lat": 34.6972,
+    "lng": 135.4958,
+    "langs": [],
+    "features": [
+      "割烹",
+      "小料理",
+      "北新地"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": null
+  },
+  {
+    "id": "rec3xYuqZcFbLA21m",
+    "name": "桜橋渡辺未来医療病院",
+    "nameEn": "Sakurabashi Watanabe Advanced Healthcare Hospital",
+    "cat": "hospital",
+    "address": "大阪府大阪市北区中之島4-3-51 NAKANOSHIMA QROSS",
+    "addressEn": "Nakanoshima Qross, 4-3-51 Nakanoshima, Kita-ku, Osaka",
+    "phone": "06-6676-8215",
+    "lat": 34.6908,
+    "lng": 135.4909,
+    "langs": [],
+    "features": [
+      "循環器内科・心臓血管外科",
+      "新福島駅圏内"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": "https://www.watanabe-hsp.or.jp/"
+  },
+  {
+    "id": "rec4iiumZAveQ1VXT",
+    "name": "ヘアセットサロン ルミナ 大阪梅田北新地店",
+    "nameEn": "Hair Set Salon LUMINA Osaka Umeda Kitashinchi",
+    "cat": "beauty",
+    "address": "大阪府大阪市北区曽根崎新地1-7-32 鍵屋ビル7F",
+    "addressEn": "",
+    "phone": null,
+    "lat": 34.6958,
+    "lng": 135.4978,
+    "langs": [],
+    "features": [
+      "ヘアセット・着物着付け専門",
+      "北新地駅徒歩2分"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": "https://beauty.hotpepper.jp/slnH000692473/"
+  },
+  {
+    "id": "rec4m6Zgbacb8aoLT",
+    "name": "桜橋渡辺リハビリテーション病院",
+    "nameEn": "Sakurabashi Watanabe Rehabilitation Hospital",
+    "cat": "hospital",
+    "address": "大阪府大阪市北区梅田2-4-32",
+    "addressEn": "2-4-32 Umeda, Kita-ku, Osaka",
+    "phone": "06-6341-8651",
+    "lat": 34.7,
+    "lng": 135.493,
+    "langs": [],
+    "features": [
+      "リハビリテーション科・内科",
+      "健診部あり"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": null
+  },
+  {
+    "id": "rec4yR4MznRb68wkG",
+    "name": "the PEOPLE（ザ・ピープル）",
+    "nameEn": "the PEOPLE",
+    "cat": "beauty",
+    "address": "大阪府大阪市北区西天満1-5-10-101",
+    "addressEn": "",
+    "phone": "06-6755-4550",
+    "lat": 34.692,
+    "lng": 135.501,
+    "langs": [],
+    "features": [
+      "南森町・北浜エリアの美容室"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": "https://thepeople-hair.com/"
+  },
+  {
+    "id": "rec4yUoePWfYpWbaO",
+    "name": "Largo（ラルゴ）中之島",
+    "nameEn": "Largo Nakanoshima",
+    "cat": "restaurant",
+    "address": "大阪府大阪市北区中之島2-3-18 中之島フェスティバルタワー12F",
+    "addressEn": "",
+    "phone": "06-6202-5363",
+    "lat": 34.6934,
+    "lng": 135.4964,
+    "langs": [],
+    "features": [
+      "イタリアン",
+      "中之島",
+      "夜景"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": "https://uoman-group.com/largo.html"
+  },
+  {
+    "id": "rec5urkrgr87j8cxy",
+    "name": "中之島アイセンターCLINIC",
+    "nameEn": "Nakanoshima Eye Center Clinic",
+    "cat": "hospital",
+    "address": "大阪府大阪市北区中之島4-3-51 NAKANOSHIMA QROSS 3F",
+    "addressEn": "3F Nakanoshima Qross, 4-3-51 Nakanoshima, Kita-ku, Osaka",
+    "phone": "06-6147-2088",
+    "lat": 34.6908,
+    "lng": 135.4909,
+    "langs": [],
+    "features": [
+      "眼科専門",
+      "中之島駅徒歩5分"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": "https://www.eyecenter.jp/"
+  },
+  {
+    "id": "rec67UeNukrhidt4V",
+    "name": "わいんゆかり",
+    "nameEn": "Wine Yukari",
+    "cat": "bar",
+    "address": "大阪府大阪市北区堂島1-3-19 薬師堂ビル6F",
+    "addressEn": "",
+    "phone": "06-6455-1717",
+    "lat": 34.6965,
+    "lng": 135.4964,
+    "langs": [],
+    "features": [
+      "風営法対象外",
+      "ワインバー",
+      "堂島"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": "http://wine-yukari.jp/"
+  },
+  {
+    "id": "rec8CVN0QLYdUh0yV",
+    "name": "カアラ",
+    "nameEn": "Kaara",
+    "cat": "bar",
+    "address": "大阪府大阪市北区曽根崎新地1-1-18 グリーンテラスビル6F",
+    "addressEn": "",
+    "phone": "06-6341-2818",
+    "lat": 34.698,
+    "lng": 135.4985,
+    "langs": [],
+    "features": [
+      "風営法対象外",
+      "オーセンティックバー",
+      "ジントニック"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": null
+  },
+  {
+    "id": "rec8IZvS8uWZ8zl3A",
+    "name": "大阪の味 お好み焼 つる家",
+    "nameEn": "Okonomiyaki Tsuruya",
+    "cat": "restaurant",
+    "address": "大阪府大阪市北区小松原町4-6",
+    "addressEn": "",
+    "phone": "06-6361-0613",
+    "lat": 34.7052,
+    "lng": 135.5008,
+    "langs": [],
+    "features": [
+      "お好み焼き",
+      "老舗",
+      "創業1950年"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": "https://tsuruya.owst.jp/"
+  },
+  {
+    "id": "rec8LyzIjqjYkoPXm",
+    "name": "大阪府立中之島図書館",
+    "nameEn": "Osaka Prefectural Nakanoshima Library",
+    "cat": "tourism",
+    "address": "大阪市北区中之島1-2-10",
+    "addressEn": "1-2-10 Nakanoshima, Kita-ku, Osaka",
+    "phone": "06-4301-7285",
+    "lat": 34.6935,
+    "lng": 135.4993,
+    "langs": [
+      "en"
+    ],
+    "features": [
+      "国指定重要文化財のレトロ建築",
+      "大阪関連資料が充実"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": "https://www.library.pref.osaka.jp/site/nakato/"
+  },
+  {
+    "id": "rec8MdGtoXzH1TvMe",
+    "name": "加寿屋 北新地店",
+    "nameEn": "Kasuya Kitashinchi",
+    "cat": "restaurant",
+    "address": "大阪府大阪市北区曽根崎新地1-7-6 新日本新地ビル東館1F",
+    "addressEn": "",
+    "phone": "06-6136-5097",
+    "lat": 34.6979,
+    "lng": 135.498,
+    "langs": [],
+    "features": [
+      "うどん",
+      "かすうどん",
+      "北新地"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": "https://office-alain.com/kitashinchi"
+  },
+  {
+    "id": "rec8eGfetVEalugRa",
+    "name": "KEYUCA グランフロント大阪店",
+    "nameEn": "KEYUCA Grand Front Osaka",
+    "cat": "shopping",
+    "address": "大阪府大阪市北区大深町3-1 グランフロント大阪南館B1F",
+    "addressEn": "",
+    "phone": null,
+    "lat": 34.7038,
+    "lng": 135.4958,
+    "langs": [],
+    "features": [
+      "生活雑貨・インテリア"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": "https://www.keyuca.com/"
+  },
+  {
+    "id": "rec8jftW876S3lQSH",
+    "name": "日本年金機構 天満年金事務所",
+    "nameEn": "Japan Pension Service Temma Pension Office",
+    "cat": "admin",
+    "address": "大阪市北区天神橋4-1-15",
+    "addressEn": "4-1-15 Tenjinbashi, Kita-ku, Osaka",
+    "phone": "06-6356-5511",
+    "lat": 34.7005,
+    "lng": 135.5145,
+    "langs": [],
+    "features": [
+      "年金相談・手続きの窓口"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": "https://www.nenkin.go.jp/section/soudan/osaka/index.html"
+  },
+  {
+    "id": "rec8mCKsroNbg7k9K",
+    "name": "ペットパラダイス リンクス梅田店",
+    "nameEn": "Pet Paradise LINKS UMEDA",
+    "cat": "shopping",
+    "address": "大阪府大阪市北区大深町1-1 リンクス梅田4F",
+    "addressEn": "",
+    "phone": null,
+    "lat": 34.7025,
+    "lng": 135.496,
+    "langs": [],
+    "features": [
+      "ペットショップ",
+      "大阪駅直結"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": null
+  },
+  {
+    "id": "rec97VqVBJS3KHIAB",
+    "name": "中川政七商店 ルクアイーレ店",
+    "nameEn": "Nakagawa Masashichi Shoten LUCUA 1100",
+    "cat": "shopping",
+    "address": "大阪府大阪市北区梅田3-1-3 LUCUA 1100 7F",
+    "addressEn": "",
+    "phone": null,
+    "lat": 34.7024,
+    "lng": 135.4959,
+    "langs": [],
+    "features": [
+      "日本の工芸・生活雑貨"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": "https://www.nakagawa-masashichi.jp/"
+  },
+  {
+    "id": "rec9CpE0uHGAx3R6Z",
+    "name": "D-salon 梅田店（ディーサロン）",
+    "nameEn": "D-salon Umeda",
+    "cat": "beauty",
+    "address": "大阪府大阪市北区茶屋町2-19 JPR茶屋町ビル8F",
+    "addressEn": "",
+    "phone": "06-6377-6776",
+    "lat": 34.7048,
+    "lng": 135.5005,
+    "langs": [],
+    "features": [
+      "阪急梅田駅徒歩1分",
+      "カット・カラー・髪質改善"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": "https://dsalon-umeda.com/"
+  },
+  {
+    "id": "rec9hvQuFCu8d3emM",
+    "name": "しんちクリニック",
+    "nameEn": "Shinchi Clinic",
+    "cat": "hospital",
+    "address": "大阪府大阪市北区堂島1-2-2 日昭ビル2F",
+    "addressEn": "2F Nissho Bldg, 1-2-2 Dojima, Kita-ku, Osaka",
+    "phone": "06-6344-5800",
+    "lat": 34.6975,
+    "lng": 135.496,
+    "langs": [],
+    "features": [
+      "内科・整形外科・心療内科",
+      "北新地駅徒歩5分"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": null
+  },
+  {
+    "id": "recAprWy24YGABIGm",
+    "name": "アトモス・イタリアンダイニング（コンラッド大阪）",
+    "nameEn": "Atmos Italian Dining Conrad Osaka",
+    "cat": "restaurant",
+    "address": "大阪府大阪市北区中之島3-2-4 コンラッド大阪40F",
+    "addressEn": "",
+    "phone": "06-6222-0111",
+    "lat": 34.6928,
+    "lng": 135.496,
+    "langs": [],
+    "features": [
+      "イタリアン",
+      "ビュッフェ",
+      "ホテル内",
+      "夜景"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": "https://conrad-osaka.hiltonjapan.co.jp/restaurants/atmos"
+  },
+  {
+    "id": "recBYxXx9jUMbMqeJ",
+    "name": "松里",
+    "nameEn": "Matsuri",
+    "cat": "restaurant",
+    "address": "大阪府大阪市北区堂島1-3-16 堂島メリーセンタービル5F",
+    "addressEn": "",
+    "phone": "06-6347-1194",
+    "lat": 34.6964,
+    "lng": 135.495,
+    "langs": [],
+    "features": [
+      "焼き鳥",
+      "北新地"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": null
+  },
+  {
+    "id": "recBuECEd0634kvGQ",
+    "name": "ねぎ焼やまもと 梅田エスト店",
+    "nameEn": "Negiyaki Yamamoto Umeda Est",
+    "cat": "restaurant",
+    "address": "大阪府大阪市北区角田町3-25 梅田EST E27",
+    "addressEn": "",
+    "phone": "06-6131-0118",
+    "lat": 34.7033,
+    "lng": 135.4972,
+    "langs": [],
+    "features": [
+      "ねぎ焼き",
+      "お好み焼き",
+      "発祥店"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": "https://www.negiyaki-yamamoto.com/tenpo/index_3.html"
+  },
+  {
+    "id": "recCHXJT2KaZKRSf4",
+    "name": "大阪中央郵便局",
+    "nameEn": "Osaka Chuo Post Office",
+    "cat": "atm",
+    "address": "大阪府大阪市北区梅田3-2-2 JPタワー大阪1階",
+    "addressEn": "1F JP Tower Osaka, 3-2-2 Umeda, Kita-ku, Osaka",
+    "phone": "0570-003-280",
+    "lat": 34.7035,
+    "lng": 135.4955,
+    "langs": [],
+    "features": [
+      "郵便局・ATM",
+      "大阪駅直結"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": null
+  },
+  {
+    "id": "recCJRX9FrYomYmLX",
+    "name": "大阪弁護士会",
+    "nameEn": "Osaka Bar Association",
+    "cat": "admin",
+    "address": "大阪市北区西天満1-12-5",
+    "addressEn": "1-12-5 Nishitenma, Kita-ku, Osaka",
+    "phone": "0570-783-748",
+    "lat": 34.6958,
+    "lng": 135.502,
+    "langs": [],
+    "features": [
+      "法律相談センターを併設",
+      "西天満の弁護士会館"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": "https://www.osakaben.or.jp/"
+  },
+  {
+    "id": "recCatFePbAHaEB3p",
+    "name": "鴨と葱",
+    "nameEn": "Kamo to Negi",
+    "cat": "restaurant",
+    "address": "大阪府大阪市北区梅田3-1-3 ルクア大阪B2F",
+    "addressEn": "",
+    "phone": "06-6151-2541",
+    "lat": 34.7024,
+    "lng": 135.4958,
+    "langs": [],
+    "features": [
+      "ラーメン",
+      "LUCUA大阪"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": null
+  },
+  {
+    "id": "recCipIhcvB4bPibj",
+    "name": "LOFTMAN COOP E-ma",
+    "nameEn": "LOFTMAN COOP E-ma",
+    "cat": "shopping",
+    "address": "大阪府大阪市北区梅田1-12-6 E-ma B1F",
+    "addressEn": "",
+    "phone": "06-6341-7038",
+    "lat": 34.7048,
+    "lng": 135.4988,
+    "langs": [],
+    "features": [
+      "セレクトショップ",
+      "梅田E-ma内"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": "https://loftman.co.jp/"
+  },
+  {
+    "id": "recDXVgJE3ik4Mczq",
+    "name": "鮨処 よしか",
+    "nameEn": "Sushidokoro Yoshika",
+    "cat": "restaurant",
+    "address": "大阪府大阪市北区西天満4-5-23 豊国ビル1F",
+    "addressEn": "",
+    "phone": "06-6366-0770",
+    "lat": 34.6955,
+    "lng": 135.5045,
+    "langs": [],
+    "features": [
+      "寿司",
+      "西天満"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": null
+  },
+  {
+    "id": "recDaQ7TllYttk0cp",
+    "name": "大阪市役所",
+    "nameEn": "Osaka City Hall",
+    "cat": "admin",
+    "address": "大阪市北区中之島1丁目3番20号",
+    "addressEn": "1-3-20 Nakanoshima, Kita-ku, Osaka",
+    "phone": "06-6208-8181",
+    "lat": 34.6936,
+    "lng": 135.5001,
+    "langs": [
+      "en"
+    ],
+    "features": [
+      "大阪市の本庁舎",
+      "淀屋橋駅・大江橋駅すぐ"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": "https://www.city.osaka.lg.jp/"
+  },
+  {
+    "id": "recDb8UybVZbLHN1B",
+    "name": "ギャラリー帝塚山（老松古美術街）",
+    "nameEn": "Gallery Tezukayama (Oimatsu Antique Street)",
+    "cat": "shopping",
+    "address": "大阪府大阪市北区西天満4-2-4",
+    "addressEn": "",
+    "phone": "06-6363-1135",
+    "lat": 34.6935,
+    "lng": 135.5055,
+    "langs": [],
+    "features": [
+      "古美術・骨董",
+      "老松古美術街の事務局"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": null
+  },
+  {
+    "id": "recE2BvglFewIrOUL",
+    "name": "割烹 味菜",
+    "nameEn": "Kappo Ajisai",
+    "cat": "restaurant",
+    "address": "大阪府大阪市北区曽根崎新地1-5-4 岩伸スプレットビル1F",
+    "addressEn": "",
+    "phone": "06-6346-1818",
+    "lat": 34.6978,
+    "lng": 135.4972,
+    "langs": [],
+    "features": [
+      "割烹",
+      "小料理",
+      "個室"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": null
+  },
+  {
+    "id": "recEffnsndNGX1Dn8",
+    "name": "Direction（ディレクション）",
+    "nameEn": "Direction",
+    "cat": "beauty",
+    "address": "大阪府大阪市北区西天満3-6-22 北大坂屋ビル2F",
+    "addressEn": "",
+    "phone": "06-6362-9349",
+    "lat": 34.6935,
+    "lng": 135.504,
+    "langs": [],
+    "features": [
+      "完全予約制の美容室",
+      "南森町駅徒歩4分"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": "https://www.hm-direction.com/"
+  },
+  {
+    "id": "recEsk9EghrAFyW9Y",
+    "name": "善道",
+    "nameEn": "Zendo",
+    "cat": "restaurant",
+    "address": "大阪府大阪市北区堂島1-3-14",
+    "addressEn": "",
+    "phone": "06-6345-1122",
+    "lat": 34.6965,
+    "lng": 135.4945,
+    "langs": [],
+    "features": [
+      "中華料理",
+      "よだれ鶏",
+      "予約必須"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": null
+  },
+  {
+    "id": "recEuiKu2W0lYaKwE",
+    "name": "北新地サンボア",
+    "nameEn": "Kitashinchi Samboa",
+    "cat": "bar",
+    "address": "大阪府大阪市北区曽根崎新地1-9-25 玉美ビル1階",
+    "addressEn": "",
+    "phone": "06-6344-5945",
+    "lat": 34.6961,
+    "lng": 135.4995,
+    "langs": [],
+    "features": [
+      "風営法対象外",
+      "オーセンティックバー",
+      "ハイボール"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": "https://www.samboa.co.jp/kitashinchi/"
+  },
+  {
+    "id": "recFNq30f9MCO7Ubr",
+    "name": "ふじた美容室",
+    "nameEn": "Fujita Beauty Salon",
+    "cat": "beauty",
+    "address": "大阪府大阪市北区西天満6-1-17",
+    "addressEn": "",
+    "phone": "06-6361-5247",
+    "lat": 34.6928,
+    "lng": 135.5065,
+    "langs": [],
+    "features": [
+      "地域密着の美容室",
+      "南森町駅徒歩6分"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": null
+  },
+  {
+    "id": "recFSsqd4PBsjbtjs",
+    "name": "りらくる 北新地店",
+    "nameEn": "Riracle Kitashinchi",
+    "cat": "beauty",
+    "address": "大阪府大阪市北区曽根崎新地1-7-32 鍵屋ビル2F",
+    "addressEn": "",
+    "phone": "050-8884-4502",
+    "lat": 34.6958,
+    "lng": 135.4979,
+    "langs": [],
+    "features": [
+      "もみほぐし・リラクゼーション",
+      "北新地駅徒歩4分"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": null
+  },
+  {
+    "id": "recFzaAmebEJDnzKn",
+    "name": "アミーチェ・デル・ヴィーノ（Amiche del Vino）",
+    "nameEn": "Amiche del Vino",
+    "cat": "bar",
+    "address": "大阪府大阪市北区曽根崎新地1-9-12 フォーシーズンフロント2F",
+    "addressEn": "",
+    "phone": "06-6348-4474",
+    "lat": 34.6959,
+    "lng": 135.4996,
+    "langs": [],
+    "features": [
+      "風営法対象外",
+      "ワインレストラン",
+      "イタリアン"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": "https://amichedelvino.com/"
+  },
+  {
+    "id": "recG1ECEbS2GBDcLD",
+    "name": "大黒屋 質大阪駅前第四ビル店",
+    "nameEn": "Daikokuya Osaka Ekimae Dai-4 Building Store",
+    "cat": "atm",
+    "address": "大阪府大阪市北区梅田1-11-4 大阪駅前第四ビルB2F(73-2区画)",
+    "addressEn": "B2F Osaka Ekimae Dai-4 Bldg (Unit 73-2), 1-11-4 Umeda, Kita-ku, Osaka",
+    "phone": "06-6440-7222",
+    "lat": 34.701,
+    "lng": 135.4945,
+    "langs": [],
+    "features": [
+      "外貨両替・買取"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": "https://shichi.e-daikoku.com/shop/osaka-ekimae/"
+  },
+  {
+    "id": "recGB4liPPQrthwVI",
+    "name": "BEAMS 梅田",
+    "nameEn": "BEAMS Umeda",
+    "cat": "shopping",
+    "address": "大阪府大阪市北区梅田3-1-3 ルクア大阪3F",
+    "addressEn": "",
+    "phone": null,
+    "lat": 34.7024,
+    "lng": 135.4959,
+    "langs": [],
+    "features": [
+      "セレクトショップ",
+      "ルクア大阪内"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": "https://www.beams.co.jp/"
+  },
+  {
+    "id": "recGOMyu9n7E6OQdf",
+    "name": "大阪駅前第2ビル内郵便局",
+    "nameEn": "Osaka Ekimae Dai-2 Building Post Office",
+    "cat": "atm",
+    "address": "大阪府大阪市北区梅田1-2-2 大阪駅前第2ビル地下2階",
+    "addressEn": "B2F Osaka Ekimae Dai-2 Bldg, 1-2-2 Umeda, Kita-ku, Osaka",
+    "phone": "06-6341-2580",
+    "lat": 34.7,
+    "lng": 135.495,
+    "langs": [],
+    "features": [
+      "郵便局・ATM"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": null
+  },
+  {
+    "id": "recGf66sUAGfZQaoy",
+    "name": "ニューミュンヘン 曽根崎店",
+    "nameEn": "New Munchen Sonezaki",
+    "cat": "restaurant",
+    "address": "大阪府大阪市北区曽根崎2-13-17 曽根崎渡辺ビル1F",
+    "addressEn": "",
+    "phone": "050-5487-2234",
+    "lat": 34.7022,
+    "lng": 135.5013,
+    "langs": [],
+    "features": [
+      "ビアホール",
+      "ドイツ料理",
+      "老舗"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": null
+  },
+  {
+    "id": "recGxxANjXU1CByDr",
+    "name": "天麩羅 ひらいし",
+    "nameEn": "Tempura Hiraishi",
+    "cat": "restaurant",
+    "address": "大阪府大阪市北区曽根崎新地1-3-19 北新地ビルディング7F",
+    "addressEn": "",
+    "phone": "06-6347-4567",
+    "lat": 34.6974,
+    "lng": 135.4963,
+    "langs": [],
+    "features": [
+      "天ぷら",
+      "ミシュラン二つ星"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": null
+  },
+  {
+    "id": "recHCsQpJCAgzn1B7",
+    "name": "ハローワーク梅田",
+    "nameEn": "Hello Work Umeda (Public Employment Security Office)",
+    "cat": "admin",
+    "address": "大阪市北区梅田1丁目2-2（大阪駅前第2ビル16階）",
+    "addressEn": "1-2-2 Umeda, Kita-ku, Osaka (Osaka Ekimae Dai-2 Bldg 16F)",
+    "phone": "06-6344-8609",
+    "lat": 34.7024,
+    "lng": 135.4964,
+    "langs": [],
+    "features": [
+      "職業相談・求人紹介",
+      "北区など6区を管轄"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": "https://jsite.mhlw.go.jp/osaka-hellowork/list/umeda.html"
+  },
+  {
+    "id": "recHlOXscJI3YtkXk",
+    "name": "いかりスーパーマーケット JR大阪店",
+    "nameEn": "Ikari Supermarket JR Osaka Store",
+    "cat": "grocery",
+    "address": "大阪市北区梅田3丁目1番1号",
+    "addressEn": "3-1-1 Umeda, Kita-ku, Osaka",
+    "phone": "06-6348-2347",
+    "lat": 34.7024,
+    "lng": 135.4959,
+    "langs": [],
+    "features": [
+      "JR大阪駅中央改札すぐ",
+      "高級志向スーパー"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": "https://www.ikarisuper.com/"
+  },
+  {
+    "id": "recHrpuwZgzvBIPuO",
+    "name": "北新地 福助",
+    "nameEn": "Kitashinchi Fukusuke",
+    "cat": "restaurant",
+    "address": "大阪府大阪市北区堂島1-4-23 吉本ビル4F",
+    "addressEn": "",
+    "phone": "06-6348-5078",
+    "lat": 34.6967,
+    "lng": 135.4955,
+    "langs": [],
+    "features": [
+      "ふぐ",
+      "鍋料理",
+      "北新地"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": "https://www.kitashinchi-fukusuke.com/"
+  },
+  {
+    "id": "recIJeG23sCvGIYZa",
+    "name": "北新地 焼肉 小野肉商店",
+    "nameEn": "Kitashinchi Yakiniku Ono Nikushoten",
+    "cat": "restaurant",
+    "address": "大阪府大阪市北区曽根崎新地1-2-16",
+    "addressEn": "",
+    "phone": "06-6341-7771",
+    "lat": 34.6972,
+    "lng": 135.4961,
+    "langs": [],
+    "features": [
+      "焼肉",
+      "北新地",
+      "個室"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": "https://kitashinchi-sumiya.gorp.jp/"
+  },
+  {
+    "id": "recIMgycgh7MLTShf",
+    "name": "Wine-ya Kawasumi（ワインヤ カワスミ）",
+    "nameEn": "Wine-ya Kawasumi",
+    "cat": "bar",
+    "address": "大阪府大阪市北区曽根崎新地1-9-10 GOTS永楽町ビルB1F",
+    "addressEn": "",
+    "phone": "06-6345-0234",
+    "lat": 34.6959,
+    "lng": 135.4995,
+    "langs": [],
+    "features": [
+      "風営法対象外",
+      "ワインバー",
+      "マスターソムリエ"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": null
+  },
+  {
+    "id": "recIrg8YMmjR1lkFu",
+    "name": "純米酒と葡萄酒 ViN-ViNO",
+    "nameEn": "ViN-ViNO",
+    "cat": "bar",
+    "address": "大阪府大阪市北区曽根崎新地1-1-43 第2大川ビル2F",
+    "addressEn": "",
+    "phone": "06-6342-5585",
+    "lat": 34.6982,
+    "lng": 135.499,
+    "langs": [],
+    "features": [
+      "風営法対象外",
+      "ワインバー",
+      "日本酒"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": "http://www.vin-vino.net/"
+  },
+  {
+    "id": "recJWQl0h0pRHNOuw",
+    "name": "ココカラファイン阪急三番街店",
+    "nameEn": "Cocokara Fine Hankyu Sanbangai",
+    "cat": "pharmacy",
+    "address": "大阪府大阪市北区芝田1-1-3 阪急三番街南館1F",
+    "addressEn": "1F Hankyu Sanbangai South Bldg, 1-1-3 Shibata, Kita-ku, Osaka",
+    "phone": "06-6372-0054",
+    "lat": 34.7045,
+    "lng": 135.496,
+    "langs": [],
+    "features": [
+      "ドラッグストア",
+      "阪急梅田駅直結"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": null
+  },
+  {
+    "id": "recJYXH1bXXbhNTsD",
+    "name": "セブン-イレブン ハートインJR北新地駅東改札口店（セブン銀行ATM）",
+    "nameEn": "7-Eleven Heart-in JR Kitashinchi Station East Gate (Seven Bank ATM)",
+    "cat": "atm",
+    "address": "大阪府大阪市北区梅田1丁目3番",
+    "addressEn": "1-3 Umeda, Kita-ku, Osaka",
+    "phone": "06-6343-8975",
+    "lat": 34.698,
+    "lng": 135.497,
+    "langs": [],
+    "features": [
+      "コンビニ内ATM",
+      "北新地駅構内"
+    ],
+    "open24": true,
+    "emergency": false,
+    "sponsor": false,
+    "website": null
+  },
+  {
+    "id": "recJfTeybRiYFZnKb",
+    "name": "Whisky Bottle Bar Bull 北新地店",
+    "nameEn": "Whisky Bottle Bar Bull Kitashinchi",
+    "cat": "bar",
+    "address": "大阪府大阪市北区曽根崎新地1-8-19 梅新ビル1001号室",
+    "addressEn": "",
+    "phone": "06-6225-8987",
+    "lat": 34.697,
+    "lng": 135.4978,
+    "langs": [],
+    "features": [
+      "風営法対象外",
+      "ウイスキーバー",
+      "ボトルバー"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": "https://www.bull-bar.jp/"
+  },
+  {
+    "id": "recJi09SOcook9U5W",
+    "name": "大丸梅田店 食品売場",
+    "nameEn": "Daimaru Umeda Store Food Floor",
+    "cat": "grocery",
+    "address": "大阪市北区梅田3-1-1",
+    "addressEn": "3-1-1 Umeda, Kita-ku, Osaka",
+    "phone": null,
+    "lat": 34.7018,
+    "lng": 135.4959,
+    "langs": [
+      "en"
+    ],
+    "features": [
+      "JR大阪駅直結",
+      "B1・B2に食品売場"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": "https://www.daimaru.co.jp/umedamise/"
+  },
+  {
+    "id": "recKsb6fKBtkavPZg",
+    "name": "大阪北郵便局",
+    "nameEn": "Osaka Kita Post Office",
+    "cat": "admin",
+    "address": "大阪市北区大淀中1-1-52",
+    "addressEn": "1-1-52 Oyodonaka, Kita-ku, Osaka",
+    "phone": "0570-943-387",
+    "lat": 34.7086,
+    "lng": 135.4885,
+    "langs": [],
+    "features": [
+      "北区エリアを管轄する集配郵便局"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": "https://www.post.japanpost.jp/"
+  },
+  {
+    "id": "recLWTirBJsG8MoxZ",
+    "name": "堂島薬師堂",
+    "nameEn": "Dojima Yakushido",
+    "cat": "tourism",
+    "address": "大阪市北区堂島1丁目6-20",
+    "addressEn": "1-6-20 Dojima, Kita-ku, Osaka",
+    "phone": null,
+    "lat": 34.6975,
+    "lng": 135.4958,
+    "langs": [],
+    "features": [
+      "堂島の地名由来の薬師堂",
+      "堂島アバンザ内に所在"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": null
+  },
+  {
+    "id": "recLqh723GUtJtJal",
+    "name": "ファミリーマート 曽根崎新地一丁目店",
+    "nameEn": "FamilyMart Sonezaki Shinchi 1-chome",
+    "cat": "grocery",
+    "address": "大阪市北区曽根崎新地1丁目3-16",
+    "addressEn": "1-3-16 Sonezaki Shinchi, Kita-ku, Osaka",
+    "phone": "06-6442-0028",
+    "lat": 34.6963,
+    "lng": 135.4979,
+    "langs": [],
+    "features": [
+      "北新地駅出口すぐ",
+      "24時間営業"
+    ],
+    "open24": true,
+    "emergency": false,
+    "sponsor": false,
+    "website": "https://www.family.co.jp/"
+  },
+  {
+    "id": "recM3bnXWl4dTI0Jk",
+    "name": "ミルカレス（MILLE CARESSES）",
+    "nameEn": "Mille Caresses",
+    "cat": "bar",
+    "address": "大阪府大阪市北区曽根崎新地1-6-1 ENISHI北新地ビル1階",
+    "addressEn": "",
+    "phone": "06-6341-7799",
+    "lat": 34.6967,
+    "lng": 135.4973,
+    "langs": [],
+    "features": [
+      "風営法対象外",
+      "ワインバー",
+      "イタリアン"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": "http://mille-caresses.jp/"
+  },
+  {
+    "id": "recMLYPUEmhi02aBb",
+    "name": "りそな銀行 梅田支店",
+    "nameEn": "Resona Bank Umeda Branch",
+    "cat": "atm",
+    "address": "大阪府大阪市北区角田町8-1 大阪梅田ツインタワーズ・ノース24階",
+    "addressEn": "24F Osaka Umeda Twin Towers North, 8-1 Tsunoda-cho, Kita-ku, Osaka",
+    "phone": "06-6312-8571",
+    "lat": 34.7018,
+    "lng": 135.496,
+    "langs": [],
+    "features": [
+      "銀行・ATM"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": null
+  },
+  {
+    "id": "recMQ4uMQxjCUZZzK",
+    "name": "播鳥 北新地本店",
+    "nameEn": "Banchou Kitashinchi Honten",
+    "cat": "restaurant",
+    "address": "大阪府大阪市北区曽根崎新地1-2-26",
+    "addressEn": "",
+    "phone": "06-6343-2727",
+    "lat": 34.6974,
+    "lng": 135.4964,
+    "langs": [],
+    "features": [
+      "焼き鳥",
+      "北新地"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": "https://banchou.co.jp/kitashinchi"
+  },
+  {
+    "id": "recMm5KRqJkLbwCaz",
+    "name": "Beauty in SAWARABI（北新地SAWARABI）",
+    "nameEn": "Beauty in SAWARABI (Kitashinchi SAWARABI)",
+    "cat": "beauty",
+    "address": "大阪府大阪市北区曽根崎新地1-10-16 永楽ビル2F",
+    "addressEn": "",
+    "phone": "06-6345-6438",
+    "lat": 34.6953,
+    "lng": 135.4993,
+    "langs": [],
+    "features": [
+      "ヘアセットサロン",
+      "北新地エリア"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": "https://sawarabi-hair.com/"
+  },
+  {
+    "id": "recNNnJW1c8OZdQyM",
+    "name": "ライフ中崎町駅前店",
+    "nameEn": "Life Nakazakicho-ekimae",
+    "cat": "grocery",
+    "address": "大阪市北区万歳町2-15",
+    "addressEn": "2-15 Banzai-cho, Kita-ku, Osaka",
+    "phone": null,
+    "lat": 34.7057,
+    "lng": 135.5054,
+    "langs": [],
+    "features": [
+      "中崎町駅すぐの総合スーパー",
+      "生鮮食品が充実"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": "https://store.lifecorp.jp/detail/west428/"
+  },
+  {
+    "id": "recNPKe6HPyZ6iIy8",
+    "name": "銀座 篝（阪急梅田駅）",
+    "nameEn": "Ginza Kagari",
+    "cat": "restaurant",
+    "address": "大阪府大阪市北区芝田1-1-2 阪急梅田駅改札内2F",
+    "addressEn": "",
+    "phone": "06-6377-1622",
+    "lat": 34.7045,
+    "lng": 135.4978,
+    "langs": [],
+    "features": [
+      "ラーメン",
+      "有名店",
+      "阪急梅田駅"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": null
+  },
+  {
+    "id": "recNgBWSDRGIX6OlJ",
+    "name": "NAIL STATION LINKS UMEDA店",
+    "nameEn": "NAIL STATION LINKS UMEDA",
+    "cat": "beauty",
+    "address": "大阪府大阪市北区大深町1-1 LINKS UMEDA 7F",
+    "addressEn": "",
+    "phone": "06-6359-7123",
+    "lat": 34.7025,
+    "lng": 135.496,
+    "langs": [],
+    "features": [
+      "ネイルサロン",
+      "大阪駅直結"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": "https://nailstation.jp/salon/umeda"
+  },
+  {
+    "id": "recOLF1yq0TWEpqV9",
+    "name": "Three Piece（スリーピース）",
+    "nameEn": "Three Piece",
+    "cat": "bar",
+    "address": "大阪府大阪市北区堂島1-3-9 日宝堂島センタービルB1F9号室",
+    "addressEn": "",
+    "phone": "06-6343-8188",
+    "lat": 34.6968,
+    "lng": 135.4961,
+    "langs": [],
+    "features": [
+      "風営法対象外",
+      "ビストロ",
+      "ワインバー"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": null
+  },
+  {
+    "id": "recQpzqVG2dI4RuHZ",
+    "name": "割烹 単",
+    "nameEn": "Kappo Tan",
+    "cat": "restaurant",
+    "address": "大阪府大阪市北区曽根崎新地1-1-7 谷安メリメントビル3F",
+    "addressEn": "",
+    "phone": "06-7653-2703",
+    "lat": 34.697,
+    "lng": 135.495,
+    "langs": [],
+    "features": [
+      "割烹",
+      "日本料理",
+      "北新地"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": "https://www.kappoutan.com/"
+  },
+  {
+    "id": "recRW8g9Hk5qZWKn3",
+    "name": "ダイコクドラッグ NEW第4ビル店",
+    "nameEn": "Daikoku Drug New Dai-4 Bldg",
+    "cat": "pharmacy",
+    "address": "大阪府大阪市北区梅田1丁目11-4 大阪駅前第4ビルB2F",
+    "addressEn": "B2F Osaka Ekimae Dai-4 Bldg, 1-11-4 Umeda, Kita-ku, Osaka",
+    "phone": "06-4796-6661",
+    "lat": 34.701,
+    "lng": 135.4945,
+    "langs": [],
+    "features": [
+      "ドラッグストア",
+      "東梅田駅徒歩1分"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": "https://daikokudrug.com/store/4b/"
+  },
+  {
+    "id": "recRaFd2N4qyETy1r",
+    "name": "割烹 うおまん 中之島店",
+    "nameEn": "Kappo Uoman Nakanoshima",
+    "cat": "restaurant",
+    "address": "大阪府大阪市北区中之島6-2-27 中之島センタービル31F",
+    "addressEn": "",
+    "phone": "06-6445-1977",
+    "lat": 34.6938,
+    "lng": 135.5045,
+    "langs": [],
+    "features": [
+      "割烹",
+      "和食",
+      "中之島",
+      "高層階"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": "https://www.cfs-japan.com/brands/uoman/shops/nakanoshima/"
+  },
+  {
+    "id": "recRiqxI6tnCxGTzv",
+    "name": "北新地 焼肉 菊地",
+    "nameEn": "Kitashinchi Yakiniku Kikuchi",
+    "cat": "restaurant",
+    "address": "大阪府大阪市北区堂島1-5-40 森田ビル2〜3F",
+    "addressEn": "",
+    "phone": "06-6476-8929",
+    "lat": 34.6962,
+    "lng": 135.4945,
+    "langs": [],
+    "features": [
+      "焼肉",
+      "北新地",
+      "個室"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": "https://kikuchi.owst.jp/"
+  },
+  {
+    "id": "recRsVjzrncrsM8sh",
+    "name": "ザ・バー（ザ・リッツ・カールトン大阪）",
+    "nameEn": "The Bar (The Ritz-Carlton, Osaka)",
+    "cat": "bar",
+    "address": "大阪府大阪市北区梅田2丁目5番25号 ザ・リッツ・カールトン大阪5F",
+    "addressEn": "",
+    "phone": "06-6343-7020",
+    "lat": 34.7015,
+    "lng": 135.4935,
+    "langs": [],
+    "features": [
+      "風営法対象外",
+      "ホテルバー",
+      "ラグジュアリー"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": "https://thebar.ritzcarltonosaka.com/"
+  },
+  {
+    "id": "recRzJEzwp5LUcbu0",
+    "name": "太融寺",
+    "nameEn": "Taiyuji Temple",
+    "cat": "tourism",
+    "address": "大阪市北区太融寺町3-7",
+    "addressEn": "3-7 Taiyuji-cho, Kita-ku, Osaka",
+    "phone": "06-6311-5480",
+    "lat": 34.7024,
+    "lng": 135.5024,
+    "langs": [],
+    "features": [
+      "高野山真言宗の古刹",
+      "淀殿の墓と伝わる史跡"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": "https://taiyuji.net/"
+  },
+  {
+    "id": "recSQnCZmo4UqrseH",
+    "name": "よしざき歯科",
+    "nameEn": "Yoshizaki Dental Clinic",
+    "cat": "hospital",
+    "address": "大阪府大阪市北区西天満5-13-12 東梅田レジデンス小島2F",
+    "addressEn": "2F Higashi-Umeda Residence Kojima, 5-13-12 Nishitenma, Kita-ku, Osaka",
+    "phone": "06-6360-4618",
+    "lat": 34.693,
+    "lng": 135.502,
+    "langs": [],
+    "features": [
+      "歯科",
+      "東梅田駅・南森町駅圏内"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": null
+  },
+  {
+    "id": "recSadcvvsfOpaxNY",
+    "name": "STANDING WINE BAR GOKU",
+    "nameEn": "Standing Wine Bar Goku",
+    "cat": "bar",
+    "address": "大阪府大阪市北区曽根崎新地1-7-6 新日本新地ビル東館B1F",
+    "addressEn": "",
+    "phone": "06-6342-0059",
+    "lat": 34.6963,
+    "lng": 135.4977,
+    "langs": [],
+    "features": [
+      "風営法対象外",
+      "立ち飲みワインバー",
+      "カジュアル"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": "https://www.winebar59.com/"
+  },
+  {
+    "id": "recTPiSOYzB1kAfOG",
+    "name": "大阪地方裁判所",
+    "nameEn": "Osaka District Court",
+    "cat": "admin",
+    "address": "大阪市北区西天満2-1-10",
+    "addressEn": "2-1-10 Nishitenma, Kita-ku, Osaka",
+    "phone": "06-6363-1281",
+    "lat": 34.695,
+    "lng": 135.5033,
+    "langs": [],
+    "features": [
+      "西天満の司法エリア中核施設",
+      "大阪簡易裁判所も同所在"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": "https://www.courts.go.jp/osaka/about_tiho/syozai/osakamain/index.html"
+  },
+  {
+    "id": "recTq9ElbpAb4TZtJ",
+    "name": "日本銀行大阪支店",
+    "nameEn": "Bank of Japan Osaka Branch",
+    "cat": "tourism",
+    "address": "大阪市北区中之島2-1-45",
+    "addressEn": "2-1-45 Nakanoshima, Kita-ku, Osaka",
+    "phone": "06-6206-7742",
+    "lat": 34.6928,
+    "lng": 135.497,
+    "langs": [
+      "en"
+    ],
+    "features": [
+      "辰野金吾設計のネオ・バロック様式旧館",
+      "要予約の見学ツアー"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": "https://www3.boj.or.jp/osaka/"
+  },
+  {
+    "id": "recUeNVxI1jnHEPT9",
+    "name": "焼肉冷麺ユッチャン。北新地店",
+    "nameEn": "Yakiniku Reimen Yucchan Kitashinchi",
+    "cat": "restaurant",
+    "address": "大阪府大阪市北区曽根崎新地1-3-9 GOTS北新地ビル1号館1F",
+    "addressEn": "",
+    "phone": "06-4796-1000",
+    "lat": 34.6975,
+    "lng": 135.4962,
+    "langs": [],
+    "features": [
+      "焼肉",
+      "冷麺",
+      "北新地"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": null
+  },
+  {
+    "id": "recUp1QmtS4oa3CSK",
+    "name": "焼鳥市松",
+    "nameEn": "Yakitori Ichimatsu",
+    "cat": "restaurant",
+    "address": "大阪府大阪市北区堂島1-5-1 エスパス北新地23・1F",
+    "addressEn": "",
+    "phone": "06-6346-0112",
+    "lat": 34.696,
+    "lng": 135.4942,
+    "langs": [],
+    "features": [
+      "焼き鳥",
+      "北新地"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": null
+  },
+  {
+    "id": "recWBFQ9P295cG2qo",
+    "name": "鮨shizuku 西天満",
+    "nameEn": "Sushi Shizuku Nishitenma",
+    "cat": "restaurant",
+    "address": "大阪府大阪市北区西天満2-3-15 千都ビル1F",
+    "addressEn": "",
+    "phone": "06-6809-6535",
+    "lat": 34.6948,
+    "lng": 135.5022,
+    "langs": [],
+    "features": [
+      "寿司",
+      "会席料理",
+      "西天満"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": "https://sushi-shizuku.com/nishitemma/"
+  },
+  {
+    "id": "recWqZtIRhesy4gLt",
+    "name": "ワイン酒場 BORRACHO",
+    "nameEn": "Wine Sakaba Borracho",
+    "cat": "bar",
+    "address": "大阪府大阪市北区曽根崎新地1-3-30 岩村ビル2F",
+    "addressEn": "",
+    "phone": "06-6348-2616",
+    "lat": 34.6973,
+    "lng": 135.4966,
+    "langs": [],
+    "features": [
+      "風営法対象外",
+      "ワインバー",
+      "バル"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": null
+  },
+  {
+    "id": "recWr4leAPjCLffo2",
+    "name": "NOKA Roast & Grill（インターコンチネンタルホテル大阪）",
+    "nameEn": "NOKA Roast & Grill",
+    "cat": "restaurant",
+    "address": "大阪府大阪市北区大深町3-60 インターコンチネンタルホテル大阪20F",
+    "addressEn": "",
+    "phone": "06-6374-5700",
+    "lat": 34.706,
+    "lng": 135.4956,
+    "langs": [],
+    "features": [
+      "ビュッフェ",
+      "洋食",
+      "ホテル内"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": "https://icosaka.com/en/dine/"
+  },
+  {
+    "id": "recXXM3OKRRyvZD22",
+    "name": "高畑歯科",
+    "nameEn": "Takahata Dental Clinic",
+    "cat": "hospital",
+    "address": "大阪府大阪市北区西天満4-4-18 梅ヶ枝中央ビル2F",
+    "addressEn": "2F Umegae Chuo Bldg, 4-4-18 Nishitenma, Kita-ku, Osaka",
+    "phone": "06-6365-1181",
+    "lat": 34.6934,
+    "lng": 135.5013,
+    "langs": [],
+    "features": [
+      "歯科",
+      "南森町駅・大江橋駅圏内"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": null
+  },
+  {
+    "id": "recXosBDbH5zuFq1B",
+    "name": "阪急三番街高速バスターミナル",
+    "nameEn": "Hankyu Sanbangai Highway Bus Terminal",
+    "cat": "transport",
+    "address": "大阪市北区芝田1丁目1-3",
+    "addressEn": "1-1-3 Shibata, Kita-ku, Osaka",
+    "phone": null,
+    "lat": 34.7043,
+    "lng": 135.4954,
+    "langs": [
+      "en"
+    ],
+    "features": [
+      "空港リムジン・高速バスのりば",
+      "阪急梅田駅直結"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": "https://www.hankyu-kankobus.co.jp/highway/map/post/"
+  },
+  {
+    "id": "recY0JLmgXIX2bTpe",
+    "name": "窯焼きステーキ 福田",
+    "nameEn": "Kamayaki Steak Fukuda",
+    "cat": "restaurant",
+    "address": "大阪府大阪市北区曽根崎新地1-2-10 北新地鈴木第3ビル2F",
+    "addressEn": "",
+    "phone": "06-6342-1539",
+    "lat": 34.6972,
+    "lng": 135.496,
+    "langs": [],
+    "features": [
+      "ステーキ",
+      "窯焼き",
+      "北新地"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": "https://kamayaki-fukuda.jp/"
+  },
+  {
+    "id": "recY5lA9ZRO9xcV43",
+    "name": "CRAFTROOM（クラフトルーム）",
+    "nameEn": "Craftroom",
+    "cat": "bar",
+    "address": "大阪府大阪市北区梅田1-3-1 大阪駅前第一ビルB2-70",
+    "addressEn": "",
+    "phone": "06-6341-8601",
+    "lat": 34.701,
+    "lng": 135.4958,
+    "langs": [],
+    "features": [
+      "風営法対象外",
+      "クラフトカクテル",
+      "バー"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": null
+  },
+  {
+    "id": "recYBrd6rgbgpKClR",
+    "name": "大阪法務局北出張所",
+    "nameEn": "Osaka Legal Affairs Bureau Kita Branch",
+    "cat": "admin",
+    "address": "大阪市北区西天満1丁目11-4",
+    "addressEn": "1-11-4 Nishitenma, Kita-ku, Osaka",
+    "phone": "06-6363-1981",
+    "lat": 34.6958,
+    "lng": 135.5017,
+    "langs": [],
+    "features": [
+      "不動産・商業登記の窓口",
+      "西天満の官庁街に所在"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": "https://houmukyoku.moj.go.jp/osaka/table/shikyokutou/all/kita.html"
+  },
+  {
+    "id": "recYEPSaNUhT1Dnga",
+    "name": "梅蘭 阪急三番街店",
+    "nameEn": "Bairan Hankyu Sanbangai",
+    "cat": "restaurant",
+    "address": "大阪府大阪市北区芝田1-1-3 阪急三番街南館B2F",
+    "addressEn": "",
+    "phone": "06-6372-2688",
+    "lat": 34.7044,
+    "lng": 135.4976,
+    "langs": [],
+    "features": [
+      "中華料理",
+      "阪急三番街"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": "https://bairan-tougen.jp/shop/sanbangai"
+  },
+  {
+    "id": "recYxJPBRm5BOVyJo",
+    "name": "セブンイレブン 大阪駅前第3ビル店",
+    "nameEn": "Seven-Eleven Osaka Ekimae Dai-3 Bldg",
+    "cat": "grocery",
+    "address": "大阪市北区梅田1丁目1-3",
+    "addressEn": "1-1-3 Umeda, Kita-ku, Osaka",
+    "phone": null,
+    "lat": 34.7024,
+    "lng": 135.4966,
+    "langs": [],
+    "features": [
+      "北新地駅すぐのコンビニ"
+    ],
+    "open24": true,
+    "emergency": false,
+    "sponsor": false,
+    "website": "https://www.sej.co.jp/"
+  },
+  {
+    "id": "reca46Wd5p39oUB1o",
+    "name": "阪急電鉄 中津駅",
+    "nameEn": "Hankyu Railway Nakatsu Station",
+    "cat": "transport",
+    "address": "大阪市北区中津3丁目1-30",
+    "addressEn": "3-1-30 Nakatsu, Kita-ku, Osaka",
+    "phone": null,
+    "lat": 34.7086,
+    "lng": 135.4923,
+    "langs": [],
+    "features": [
+      "神戸・宝塚・京都線が乗り入れ",
+      "高架駅"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": "https://www.hankyu.co.jp/station/nakatsu.html"
+  },
+  {
+    "id": "recaGqEBg01Z978Gb",
+    "name": "三菱UFJ銀行 中之島支店",
+    "nameEn": "MUFG Bank Nakanoshima Branch",
+    "cat": "atm",
+    "address": "大阪府大阪市北区中之島2丁目3-18",
+    "addressEn": "2-3-18 Nakanoshima, Kita-ku, Osaka",
+    "phone": "06-6203-5233",
+    "lat": 34.6935,
+    "lng": 135.498,
+    "langs": [],
+    "features": [
+      "銀行・ATM",
+      "渡辺橋駅徒歩3分"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": null
+  },
+  {
+    "id": "recbSNWov37UdbnaH",
+    "name": "阪急電鉄 大阪梅田駅",
+    "nameEn": "Hankyu Railway Osaka-Umeda Station",
+    "cat": "transport",
+    "address": "大阪市北区芝田1-1-2",
+    "addressEn": "1-1-2 Shibata, Kita-ku, Osaka",
+    "phone": null,
+    "lat": 34.7046,
+    "lng": 135.4959,
+    "langs": [
+      "en",
+      "zh",
+      "ko"
+    ],
+    "features": [
+      "神戸・宝塚・京都線のターミナル",
+      "9面8線の大規模駅"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": "https://www.hankyu.co.jp/station/umeda.html"
+  },
+  {
+    "id": "recdC7H988gvcmSWK",
+    "name": "西梅田シティクリニック",
+    "nameEn": "Nishi-Umeda City Clinic",
+    "cat": "hospital",
+    "address": "大阪府大阪市北区梅田2-1-18 富士ビル2F・3F",
+    "addressEn": "2F-3F Fuji Bldg, 2-1-18 Umeda, Kita-ku, Osaka",
+    "phone": "06-6867-9340",
+    "lat": 34.6987,
+    "lng": 135.4938,
+    "langs": [],
+    "features": [
+      "内科・婦人科",
+      "北新地駅・西梅田駅より徒歩1分"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": "https://nishiumeda.city-clinic.jp/"
+  },
+  {
+    "id": "recdEN9Q6Krnmgbxd",
+    "name": "P's-first 梅田店",
+    "nameEn": "P's-first Umeda",
+    "cat": "shopping",
+    "address": "大阪府大阪市北区芝田2-3-3",
+    "addressEn": "",
+    "phone": null,
+    "lat": 34.705,
+    "lng": 135.4995,
+    "langs": [],
+    "features": [
+      "ペットショップ"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": "https://www.pfirst.jp/"
+  },
+  {
+    "id": "recdjiK5tenHxzVFm",
+    "name": "アウルクリニック",
+    "nameEn": "Owl Clinic",
+    "cat": "hospital",
+    "address": "大阪府大阪市北区梅田1丁目3番1号 大阪駅前第1ビル",
+    "addressEn": "Osaka Ekimae Dai-1 Bldg, 1-3-1 Umeda, Kita-ku, Osaka",
+    "phone": "06-6690-8017",
+    "lat": 34.7005,
+    "lng": 135.4955,
+    "langs": [],
+    "features": [
+      "内科・心療内科・精神科・皮膚科"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": null
+  },
+  {
+    "id": "recdkvhM58gERpK5c",
+    "name": "ファミリーマート グランフロント大阪店",
+    "nameEn": "FamilyMart Grand Front Osaka",
+    "cat": "grocery",
+    "address": "大阪市北区大深町4-20",
+    "addressEn": "4-20 Ofuka-cho, Kita-ku, Osaka",
+    "phone": "06-6359-3570",
+    "lat": 34.7042,
+    "lng": 135.4959,
+    "langs": [
+      "en"
+    ],
+    "features": [
+      "大阪駅直結の商業施設内コンビニ"
+    ],
+    "open24": true,
+    "emergency": false,
+    "sponsor": false,
+    "website": "https://www.family.co.jp/"
+  },
+  {
+    "id": "rece4yQyPjjySDBc2",
+    "name": "HEP FIVE観覧車",
+    "nameEn": "HEP FIVE Ferris Wheel",
+    "cat": "tourism",
+    "address": "大阪市北区角田町5-15",
+    "addressEn": "5-15 Kakuda-cho, Kita-ku, Osaka",
+    "phone": "06-6313-0501",
+    "lat": 34.7031,
+    "lng": 135.5011,
+    "langs": [
+      "en"
+    ],
+    "features": [
+      "梅田の赤いランドマーク観覧車",
+      "地上106mからの眺望"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": "https://www.hepfive.jp/"
+  },
+  {
+    "id": "receBXt2h0K9RorVo",
+    "name": "BAR BESO（バー ベッソ）",
+    "nameEn": "Bar Beso",
+    "cat": "bar",
+    "address": "大阪府大阪市北区堂島1-3-35 新陽第二ビルB1F",
+    "addressEn": "",
+    "phone": "06-4256-6232",
+    "lat": 34.6968,
+    "lng": 135.4963,
+    "langs": [],
+    "features": [
+      "風営法対象外",
+      "バー",
+      "堂島"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": "http://www.bar-beso.com/beso/"
+  },
+  {
+    "id": "receHCmEEtncnQfTE",
+    "name": "グロリエット（Gloriette BAR et BISTRO）",
+    "nameEn": "Gloriette",
+    "cat": "bar",
+    "address": "大阪府大阪市北区堂島1-3-28 堂島センター1階",
+    "addressEn": "",
+    "phone": "06-6345-0033",
+    "lat": 34.6965,
+    "lng": 135.4966,
+    "langs": [],
+    "features": [
+      "風営法対象外",
+      "ワインバー",
+      "ビオワイン"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": "https://gloriette.jp/"
+  },
+  {
+    "id": "receK3My1w5dfiAjD",
+    "name": "大阪メトロ中津駅",
+    "nameEn": "Osaka Metro Nakatsu Station",
+    "cat": "transport",
+    "address": "大阪市北区中津1丁目13-19",
+    "addressEn": "1-13-19 Nakatsu, Kita-ku, Osaka",
+    "phone": null,
+    "lat": 34.7057,
+    "lng": 135.4933,
+    "langs": [],
+    "features": [
+      "御堂筋線の駅",
+      "梅田の北隣に位置"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": "https://subway.osakametro.co.jp/station_guide/m/m15/"
+  },
+  {
+    "id": "recemLrPL5FIHECrb",
+    "name": "クオール薬局梅田店（北新地）",
+    "nameEn": "Qol Pharmacy Umeda (Kitashinchi)",
+    "cat": "pharmacy",
+    "address": "大阪府大阪市北区梅田1丁目2番2号 大阪駅前第2ビル2階",
+    "addressEn": "2F Osaka Ekimae Dai-2 Bldg, 1-2-2 Umeda, Kita-ku, Osaka",
+    "phone": "06-6346-0152",
+    "lat": 34.7,
+    "lng": 135.495,
+    "langs": [],
+    "features": [
+      "調剤薬局"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": null
+  },
+  {
+    "id": "recfQ9w3mJXvYI0iX",
+    "name": "中国料理 故宮（ウェスティンホテル大阪）",
+    "nameEn": "Chugoku Ryori Kokyu",
+    "cat": "restaurant",
+    "address": "大阪府大阪市北区大淀中1-1-20 ウェスティンホテル大阪3F",
+    "addressEn": "",
+    "phone": "06-6440-1065",
+    "lat": 34.7115,
+    "lng": 135.4933,
+    "langs": [],
+    "features": [
+      "中華料理",
+      "広東料理",
+      "ホテル内"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": "https://kokyu.westinosaka.com/"
+  },
+  {
+    "id": "recfW1jeJb0ZrCtq6",
+    "name": "とんかつ 小ばやし",
+    "nameEn": "Tonkatsu Kobayashi",
+    "cat": "restaurant",
+    "address": "大阪府大阪市北区角田町5-5-1",
+    "addressEn": "",
+    "phone": "06-6362-0674",
+    "lat": 34.7027,
+    "lng": 135.4968,
+    "langs": [],
+    "features": [
+      "とんかつ",
+      "老舗",
+      "梅田"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": "https://tonkatsu-kobayashi.com/"
+  },
+  {
+    "id": "recfaHKkW5TFc9zyB",
+    "name": "彩葉",
+    "nameEn": "Iroha",
+    "cat": "restaurant",
+    "address": "大阪府大阪市北区曽根崎新地1-3-19 北新地ビル5F",
+    "addressEn": "",
+    "phone": "06-6344-7355",
+    "lat": 34.6974,
+    "lng": 135.4963,
+    "langs": [],
+    "features": [
+      "日本料理",
+      "ミシュラン掲載",
+      "北新地"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": null
+  },
+  {
+    "id": "recfqKNw9zPaoSAgq",
+    "name": "なにわ天ぷら 維心",
+    "nameEn": "Naniwa Tempura Ishin",
+    "cat": "restaurant",
+    "address": "大阪府大阪市北区曽根崎新地1-3-36 竹新ビル3F",
+    "addressEn": "",
+    "phone": "050-5592-9825",
+    "lat": 34.6976,
+    "lng": 135.4967,
+    "langs": [],
+    "features": [
+      "天ぷら",
+      "シャンパン"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": null
+  },
+  {
+    "id": "recftvrlJjArjkmzw",
+    "name": "コクミンドラッグ Whityうめだプチシャン店",
+    "nameEn": "Kokumin Drug Whity Umeda Puchishan",
+    "cat": "pharmacy",
+    "address": "大阪府大阪市北区茶屋町梅田地下街1-6",
+    "addressEn": "1-6 Umeda Underground Mall, Chayamachi, Kita-ku, Osaka",
+    "phone": "06-6373-0445",
+    "lat": 34.704,
+    "lng": 135.4995,
+    "langs": [],
+    "features": [
+      "ドラッグストア",
+      "梅田地下街内"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": "https://kokumin.co.jp/store/osaka/whitypuchisyan.html"
+  },
+  {
+    "id": "recgOVnVPCjyHUKun",
+    "name": "堂島サンボア",
+    "nameEn": "Dojima Samboa",
+    "cat": "bar",
+    "address": "大阪府大阪市北区堂島1-5-40",
+    "addressEn": "",
+    "phone": "06-6341-5368",
+    "lat": 34.6975,
+    "lng": 135.496,
+    "langs": [],
+    "features": [
+      "風営法対象外",
+      "オーセンティックバー",
+      "食べログバーアワード受賞"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": "https://www.samboa.co.jp/"
+  },
+  {
+    "id": "recgTlDZIU0wTmF6k",
+    "name": "ココカラファイン阪神大阪梅田駅店",
+    "nameEn": "Cocokara Fine Hanshin Osaka-Umeda Station",
+    "cat": "pharmacy",
+    "address": "大阪府大阪市北区梅田3丁目 大阪駅前地下街7号",
+    "addressEn": "No.7 Osaka Ekimae Underground Mall, 3-chome Umeda, Kita-ku, Osaka",
+    "phone": "06-6867-9424",
+    "lat": 34.702,
+    "lng": 135.4955,
+    "langs": [],
+    "features": [
+      "ドラッグストア",
+      "阪神梅田駅百貨店口改札隣"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": null
+  },
+  {
+    "id": "recgu7CZvZp6i9ZqT",
+    "name": "蕎麦割烹 福一",
+    "nameEn": "Soba Kappo Fukuichi",
+    "cat": "restaurant",
+    "address": "大阪府大阪市北区曽根崎新地1-5-21 松木興産ビル7F",
+    "addressEn": "",
+    "phone": "06-6343-5211",
+    "lat": 34.6978,
+    "lng": 135.4974,
+    "langs": [],
+    "features": [
+      "蕎麦",
+      "割烹",
+      "北新地"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": "http://soba-fukuichi.com/"
+  },
+  {
+    "id": "recgvZT7O5GhVja9i",
+    "name": "焼賣太樓 桜橋店",
+    "nameEn": "Shumai Taro Sakurabashi",
+    "cat": "restaurant",
+    "address": "大阪府大阪市北区梅田2-1-16",
+    "addressEn": "",
+    "phone": "06-6341-7061",
+    "lat": 34.7012,
+    "lng": 135.4938,
+    "langs": [],
+    "features": [
+      "中華料理",
+      "焼売",
+      "老舗"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": "https://shumaitaro-sakurabashi.com/"
+  },
+  {
+    "id": "reci4Mkyoy5FEOD5A",
+    "name": "大阪中央郵便局",
+    "nameEn": "Osaka Central Post Office",
+    "cat": "admin",
+    "address": "大阪市北区梅田3-2-2（JPタワー大阪1階）",
+    "addressEn": "3-2-2 Umeda, Kita-ku, Osaka (JP Tower Osaka 1F)",
+    "phone": "0570-003-280",
+    "lat": 34.702,
+    "lng": 135.4958,
+    "langs": [
+      "en"
+    ],
+    "features": [
+      "大阪駅西口徒歩1分",
+      "ゆうちょ銀行大阪支店併設"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": "https://www.post.japanpost.jp/"
+  },
+  {
+    "id": "reci5SxuoTdmcSSdE",
+    "name": "トラベレックス TiS大阪店",
+    "nameEn": "Travelex TiS Osaka Store",
+    "cat": "atm",
+    "address": "大阪府大阪市北区梅田3-1-1 JR大阪駅構内 日本旅行TiS大阪支店内",
+    "addressEn": "Inside JR Osaka Station, Nippon Travel TiS Osaka Branch, 3-1-1 Umeda, Kita-ku, Osaka",
+    "phone": "06-4797-9685",
+    "lat": 34.7024,
+    "lng": 135.4959,
+    "langs": [
+      "en"
+    ],
+    "features": [
+      "外貨両替専門店"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": "https://www.travelex.co.jp/stores/tis-osaka/6027"
+  },
+  {
+    "id": "recif7IoP646Bv9c8",
+    "name": "Francfranc ルクア大阪店",
+    "nameEn": "Francfranc LUCUA Osaka",
+    "cat": "shopping",
+    "address": "大阪府大阪市北区梅田3-1-3 ルクア大阪8F",
+    "addressEn": "",
+    "phone": null,
+    "lat": 34.7024,
+    "lng": 135.4959,
+    "langs": [],
+    "features": [
+      "インテリア・生活雑貨"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": "https://francfranc.com/"
+  },
+  {
+    "id": "recijRPlXaJXkqp6Z",
+    "name": "老虎菜 阪神百貨店梅田店",
+    "nameEn": "Roukosai Hanshin Umeda",
+    "cat": "restaurant",
+    "address": "大阪府大阪市北区梅田1-13-13 大阪梅田ツインタワーズ・サウス9F",
+    "addressEn": "",
+    "phone": "06-6345-0953",
+    "lat": 34.7027,
+    "lng": 135.495,
+    "langs": [],
+    "features": [
+      "中華料理",
+      "飲茶",
+      "百貨店内"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": "https://www.lao-fuu-tsaii.co.jp/sub_shop2"
+  },
+  {
+    "id": "recjTJQjGozj5lD1U",
+    "name": "ローソン 大阪駅前第一ビル店",
+    "nameEn": "Lawson Osaka Ekimae Dai-1 Bldg",
+    "cat": "grocery",
+    "address": "大阪市北区梅田1丁目3-1",
+    "addressEn": "1-3-1 Umeda, Kita-ku, Osaka",
+    "phone": null,
+    "lat": 34.7024,
+    "lng": 135.497,
+    "langs": [],
+    "features": [
+      "北新地駅から徒歩2分のコンビニ"
+    ],
+    "open24": true,
+    "emergency": false,
+    "sponsor": false,
+    "website": "https://www.lawson.co.jp/"
+  },
+  {
+    "id": "recjX6s3kWPt60CTv",
+    "name": "Ristorante 迫",
+    "nameEn": "Ristorante Sako",
+    "cat": "restaurant",
+    "address": "大阪府大阪市北区末広町3-2 ヤマモトビル1F",
+    "addressEn": "",
+    "phone": "06-6311-8312",
+    "lat": 34.7003,
+    "lng": 135.5113,
+    "langs": [],
+    "features": [
+      "イタリアン",
+      "扇町",
+      "地産地消"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": "https://www.ristorante-sako.com/"
+  },
+  {
+    "id": "recja23MHqeQr0r84",
+    "name": "串揚げ タケナカ",
+    "nameEn": "Kushiage Takenaka",
+    "cat": "restaurant",
+    "address": "大阪府大阪市北区堂島1-3-4 谷安ビルB1",
+    "addressEn": "",
+    "phone": "06-6342-0808",
+    "lat": 34.6963,
+    "lng": 135.4947,
+    "langs": [],
+    "features": [
+      "串揚げ",
+      "居酒屋",
+      "北新地"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": null
+  },
+  {
+    "id": "recjjjyBY1TFRA1fa",
+    "name": "ノガラッツァ",
+    "nameEn": "Nogarazza",
+    "cat": "restaurant",
+    "address": "大阪府大阪市北区中之島3-3-23 中之島ダイビル2F",
+    "addressEn": "",
+    "phone": "06-6225-2950",
+    "lat": 34.6927,
+    "lng": 135.4956,
+    "langs": [],
+    "features": [
+      "フレンチ",
+      "イタリアン",
+      "中之島"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": "https://nogarazza.info/"
+  },
+  {
+    "id": "reckPH8vmiUSzG7ym",
+    "name": "JR東西線 大阪天満宮駅",
+    "nameEn": "JR Tozai Line Osaka Temmangu Station",
+    "cat": "transport",
+    "address": "大阪市北区東天満2丁目10番先",
+    "addressEn": "2-10 Higashitenma, Kita-ku, Osaka",
+    "phone": null,
+    "lat": 34.6975,
+    "lng": 135.5127,
+    "langs": [],
+    "features": [
+      "大阪天満宮すぐの地下駅",
+      "天神橋筋商店街に近い"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": "https://www.jr-odekake.net/eki/premises?id=0612302"
+  },
+  {
+    "id": "reckm8b9pD1fM2dIq",
+    "name": "セブンイレブン 大阪西天満4丁目店",
+    "nameEn": "Seven-Eleven Osaka Nishitenma 4-chome",
+    "cat": "grocery",
+    "address": "大阪市北区西天満3丁目13-18 島根ビル1F",
+    "addressEn": "3-13-18 Nishitenma, Kita-ku, Osaka",
+    "phone": null,
+    "lat": 34.6956,
+    "lng": 135.5057,
+    "langs": [],
+    "features": [
+      "西天満のオフィス街にあるコンビニ"
+    ],
+    "open24": true,
+    "emergency": false,
+    "sponsor": false,
+    "website": "https://www.sej.co.jp/"
+  },
+  {
+    "id": "recl91X1V4qzkhBMq",
+    "name": "NAKANOSHIMA SOCIAL EAT AWAKE",
+    "nameEn": "Nakanoshima Social Eat Awake",
+    "cat": "restaurant",
+    "address": "大阪府大阪市北区中之島1-1-27 大阪市中央公会堂B1F",
+    "addressEn": "",
+    "phone": "050-3146-4381",
+    "lat": 34.6928,
+    "lng": 135.5038,
+    "langs": [],
+    "features": [
+      "レストラン",
+      "バル",
+      "重要文化財"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": "https://nakanoshima-social-eat-awake.jp/"
+  },
+  {
+    "id": "recl9wmKO5BZO8gyw",
+    "name": "ダイコクドラッグ うめきた店",
+    "nameEn": "Daikoku Drug Umekita",
+    "cat": "pharmacy",
+    "address": "大阪府大阪市北区芝田2丁目3番5号",
+    "addressEn": "2-3-5 Shibata, Kita-ku, Osaka",
+    "phone": "06-6292-5222",
+    "lat": 34.705,
+    "lng": 135.497,
+    "langs": [],
+    "features": [
+      "ドラッグストア",
+      "梅田駅徒歩約3分"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": "https://daikokudrug.com/store/umekita/"
+  },
+  {
+    "id": "reclVIkb4tj6OYU1k",
+    "name": "ひないや",
+    "nameEn": "Hinaiya",
+    "cat": "restaurant",
+    "address": "大阪府大阪市北区曽根崎新地1-10-16 永楽ビル6F",
+    "addressEn": "",
+    "phone": "06-6344-1718",
+    "lat": 34.6985,
+    "lng": 135.499,
+    "langs": [],
+    "features": [
+      "焼き鳥",
+      "北新地"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": null
+  },
+  {
+    "id": "recmptTpC9vrFhb1C",
+    "name": "ココカラファイン梅田店",
+    "nameEn": "Cocokara Fine Umeda",
+    "cat": "pharmacy",
+    "address": "大阪府大阪市北区角田町8-6",
+    "addressEn": "8-6 Tsunoda-cho, Kita-ku, Osaka",
+    "phone": "06-6292-5377",
+    "lat": 34.7015,
+    "lng": 135.4965,
+    "langs": [],
+    "features": [
+      "ドラッグストア",
+      "御堂筋線梅田駅北改札前"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": null
+  },
+  {
+    "id": "recmuAGJEbdB9QTLC",
+    "name": "スギ薬局 梅田店",
+    "nameEn": "Sugi Pharmacy Umeda",
+    "cat": "pharmacy",
+    "address": "大阪府大阪市北区芝田2丁目6番30号 梅田清和ビル1階",
+    "addressEn": "1F Umeda Seiwa Bldg, 2-6-30 Shibata, Kita-ku, Osaka",
+    "phone": "06-6376-5601",
+    "lat": 34.704,
+    "lng": 135.498,
+    "langs": [],
+    "features": [
+      "ドラッグストア・調剤薬局",
+      "夜23:30まで営業"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": "https://www.sugi-net.jp/stores/002197"
+  },
+  {
+    "id": "recn30AZE5v09iuls",
+    "name": "なか田",
+    "nameEn": "Nakada",
+    "cat": "restaurant",
+    "address": "大阪府大阪市北区中之島5-3-68 リーガロイヤルホテルB1F",
+    "addressEn": "",
+    "phone": "06-6448-0239",
+    "lat": 34.6905,
+    "lng": 135.4885,
+    "langs": [],
+    "features": [
+      "寿司",
+      "和食",
+      "ホテル内"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": "https://washokunakada.owst.jp/"
+  },
+  {
+    "id": "recnKYfVntpjgidTU",
+    "name": "阪神梅田本店 食品売場",
+    "nameEn": "Hanshin Umeda Main Store Food Floor",
+    "cat": "grocery",
+    "address": "大阪市北区梅田1-13-13",
+    "addressEn": "1-13-13 Umeda, Kita-ku, Osaka",
+    "phone": null,
+    "lat": 34.7025,
+    "lng": 135.4959,
+    "langs": [
+      "en"
+    ],
+    "features": [
+      "地下食品売場とスナックパーク",
+      "大阪駅直結の百貨店"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": "https://www.hanshin-dept.jp/hshonten/"
+  },
+  {
+    "id": "recnWQD4YycJaewpZ",
+    "name": "鮨 美寿志",
+    "nameEn": "Sushi Misuji",
+    "cat": "restaurant",
+    "address": "大阪府大阪市北区中之島3-2-4 中之島フェスティバルタワー・ウエスト2F",
+    "addressEn": "",
+    "phone": "06-6205-9528",
+    "lat": 34.6932,
+    "lng": 135.4962,
+    "langs": [],
+    "features": [
+      "寿司",
+      "中之島",
+      "高層階"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": "https://misuji-osaka.com/en/"
+  },
+  {
+    "id": "reco30sCXysfr79Ch",
+    "name": "阪急うめだ本店 食品売場",
+    "nameEn": "Hankyu Umeda Main Store Food Floor",
+    "cat": "grocery",
+    "address": "大阪市北区角田町8-7",
+    "addressEn": "8-7 Kakuda-cho, Kita-ku, Osaka",
+    "phone": "06-6361-1381",
+    "lat": 34.7027,
+    "lng": 135.4989,
+    "langs": [
+      "en"
+    ],
+    "features": [
+      "B1・B2階に生鮮・惣菜など食品売場",
+      "梅田の老舗百貨店"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": "https://www.hankyu-dept.co.jp/honten/"
+  },
+  {
+    "id": "recocbpIyHpOab368",
+    "name": "バー アディ（インターコンチネンタルホテル大阪）",
+    "nameEn": "adee Lounge & Bar (InterContinental Osaka)",
+    "cat": "bar",
+    "address": "大阪府大阪市北区大深町3-60 インターコンチネンタルホテル大阪20F",
+    "addressEn": "",
+    "phone": "06-6374-5700",
+    "lat": 34.7051,
+    "lng": 135.4958,
+    "langs": [],
+    "features": [
+      "風営法対象外",
+      "ホテルバー",
+      "ラウンジ"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": "https://icosaka.com/en/restaurant/adee/"
+  },
+  {
+    "id": "recpnP3erNaeva2L3",
+    "name": "ペットショップ Coo&RIKU 梅田店",
+    "nameEn": "Pet Shop Coo&RIKU Umeda",
+    "cat": "shopping",
+    "address": "大阪府大阪市北区芝田2-3-2",
+    "addressEn": "",
+    "phone": "06-6225-7163",
+    "lat": 34.7051,
+    "lng": 135.4994,
+    "langs": [],
+    "features": [
+      "ペットショップ",
+      "梅田駅徒歩2分"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": "https://www.pet-coo.com/"
+  },
+  {
+    "id": "recqQC3N7K3R9AnLT",
+    "name": "天ぷら ぬま田",
+    "nameEn": "Tempura Numata",
+    "cat": "restaurant",
+    "address": "大阪府大阪市北区曽根崎新地1-10-2 北新地プレイス7F",
+    "addressEn": "",
+    "phone": "06-6347-0707",
+    "lat": 34.6983,
+    "lng": 135.4988,
+    "langs": [],
+    "features": [
+      "天ぷら",
+      "ミシュラン二つ星"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": "https://www.tenpura-tenboshi.com/tenboshi/numata.html"
+  },
+  {
+    "id": "recrCzgb98KbS6qaz",
+    "name": "大阪メトロ西梅田駅",
+    "nameEn": "Osaka Metro Nishi-Umeda Station",
+    "cat": "transport",
+    "address": "大阪市北区梅田2-2-25",
+    "addressEn": "2-2-25 Umeda, Kita-ku, Osaka",
+    "phone": null,
+    "lat": 34.6996,
+    "lng": 135.4948,
+    "langs": [
+      "en"
+    ],
+    "features": [
+      "四つ橋線の駅",
+      "北新地・ハービスOSAKA至近"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": "https://subway.osakametro.co.jp/station_guide/Y/y11/"
+  },
+  {
+    "id": "recrQp96aUjo7z35U",
+    "name": "綱敷天神社",
+    "nameEn": "Tsunashiki Tenjinsha Shrine",
+    "cat": "tourism",
+    "address": "大阪市北区神山町9-11",
+    "addressEn": "9-11 Kamiyama-cho, Kita-ku, Osaka",
+    "phone": "06-6361-2887",
+    "lat": 34.7027,
+    "lng": 135.4983,
+    "langs": [],
+    "features": [
+      "梅田近くの古社",
+      "北野天神とも呼ばれる"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": "https://www.tunashiki.com/"
+  },
+  {
+    "id": "recrm1PoTFawj0x4R",
+    "name": "北新地本通り チャイニーズ 響香",
+    "nameEn": "Kyoka",
+    "cat": "restaurant",
+    "address": "大阪府大阪市北区曽根崎新地1-1-41 アストリアジロービル1F",
+    "addressEn": "",
+    "phone": "06-4256-8668",
+    "lat": 34.6971,
+    "lng": 135.4953,
+    "langs": [],
+    "features": [
+      "中華料理",
+      "北新地",
+      "高級"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": null
+  },
+  {
+    "id": "recrnMtWP52MAeVLa",
+    "name": "ハイボールバー梅田1923",
+    "nameEn": "Highball Bar Umeda 1923",
+    "cat": "bar",
+    "address": "大阪府大阪市北区芝田2-1-3 梅仙堂ビル1F",
+    "addressEn": "",
+    "phone": "06-6375-2300",
+    "lat": 34.704,
+    "lng": 135.4975,
+    "langs": [],
+    "features": [
+      "風営法対象外",
+      "ハイボール専門",
+      "大阪駅すぐ"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": "https://daiwa-j.com/brands/highballbar/umeda/"
+  },
+  {
+    "id": "recsgFyVKlZz7ybJw",
+    "name": "MIDWEST",
+    "nameEn": "MIDWEST",
+    "cat": "shopping",
+    "address": "大阪府大阪市北区梅田2-2-22 ハービスエント B1",
+    "addressEn": "",
+    "phone": null,
+    "lat": 34.704,
+    "lng": 135.493,
+    "langs": [],
+    "features": [
+      "セレクトショップ",
+      "ハービスエント内"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": null
+  },
+  {
+    "id": "rect53Cwz8p8dgBhS",
+    "name": "中之島公園（中之島バラ園）",
+    "nameEn": "Nakanoshima Park (Rose Garden)",
+    "cat": "tourism",
+    "address": "大阪市北区中之島1丁目",
+    "addressEn": "1-chome Nakanoshima, Kita-ku, Osaka",
+    "phone": null,
+    "lat": 34.6934,
+    "lng": 135.5027,
+    "langs": [],
+    "features": [
+      "約310品種のバラ園",
+      "入園無料・常時開放"
+    ],
+    "open24": true,
+    "emergency": false,
+    "sponsor": false,
+    "website": "https://www.osakapark.osgf.or.jp/nakanoshima/"
+  },
+  {
+    "id": "rectKJ8hOlBVbPUJH",
+    "name": "みずほ銀行 梅田支店",
+    "nameEn": "Mizuho Bank Umeda Branch",
+    "cat": "atm",
+    "address": "大阪府大阪市北区梅田1-11-4-100 大阪駅前第四ビル1階",
+    "addressEn": "1F Osaka Ekimae Dai-4 Bldg, 1-11-4 Umeda, Kita-ku, Osaka",
+    "phone": "06-6342-1631",
+    "lat": 34.701,
+    "lng": 135.4945,
+    "langs": [],
+    "features": [
+      "銀行・ATM"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": null
+  },
+  {
+    "id": "rectwLTA5gihPd5d3",
+    "name": "阪神電鉄 大阪梅田駅",
+    "nameEn": "Hanshin Railway Osaka-Umeda Station",
+    "cat": "transport",
+    "address": "大阪市北区梅田3丁目",
+    "addressEn": "3-chome Umeda, Kita-ku, Osaka",
+    "phone": "06-6457-2267",
+    "lat": 34.7028,
+    "lng": 135.4956,
+    "langs": [
+      "en"
+    ],
+    "features": [
+      "阪神本線のターミナル駅",
+      "梅田地下街と直結"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": "https://www.hanshin.co.jp/station/umeda.html"
+  },
+  {
+    "id": "recu6qwMhFnesHJOn",
+    "name": "大阪天満宮",
+    "nameEn": "Osaka Tenmangu Shrine",
+    "cat": "tourism",
+    "address": "大阪市北区天神橋2丁目1番8号",
+    "addressEn": "2-1-8 Tenjinbashi, Kita-ku, Osaka",
+    "phone": "06-6353-0025",
+    "lat": 34.6987,
+    "lng": 135.5127,
+    "langs": [
+      "en"
+    ],
+    "features": [
+      "学問の神様を祀る",
+      "天神祭で有名"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": "https://osakatemmangu.or.jp/"
+  },
+  {
+    "id": "recuEGrbsdS2vBcj7",
+    "name": "大阪曽根崎新地郵便局",
+    "nameEn": "Osaka Sonezaki Shinchi Post Office",
+    "cat": "admin",
+    "address": "大阪市北区曽根崎新地2-4-18",
+    "addressEn": "2-4-18 Sonezaki Shinchi, Kita-ku, Osaka",
+    "phone": "06-6346-0095",
+    "lat": 34.696,
+    "lng": 135.497,
+    "langs": [],
+    "features": [
+      "北新地エリアの郵便窓口"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": "https://www.post.japanpost.jp/"
+  },
+  {
+    "id": "recusDyrn4xTUuscW",
+    "name": "麺屋7.5Hz+",
+    "nameEn": "Menya 7.5Hz+",
+    "cat": "restaurant",
+    "address": "大阪府大阪市北区梅田1-2-2 大阪駅前第2ビルB2F",
+    "addressEn": "",
+    "phone": "06-6346-5510",
+    "lat": 34.7008,
+    "lng": 135.4968,
+    "langs": [],
+    "features": [
+      "ラーメン",
+      "大阪駅前"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": null
+  },
+  {
+    "id": "recvnl3C1LOCpsJ0O",
+    "name": "レストラン ヴァリエ",
+    "nameEn": "Restaurant Varier",
+    "cat": "restaurant",
+    "address": "大阪府大阪市北区中之島3-3-23 中之島ダイビル2F",
+    "addressEn": "",
+    "phone": "06-4803-0999",
+    "lat": 34.6927,
+    "lng": 135.4956,
+    "langs": [],
+    "features": [
+      "フレンチ",
+      "中之島",
+      "個室"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": "https://www.restaurant-varier.com/"
+  },
+  {
+    "id": "recwOFQeeECQQXExu",
+    "name": "Rhythm Beauty Neverland（RBN）",
+    "nameEn": "Rhythm Beauty Neverland (RBN)",
+    "cat": "beauty",
+    "address": "大阪府大阪市北区曽根崎新地1-3-23 北新地FOODEARビル3F",
+    "addressEn": "",
+    "phone": "06-6225-7037",
+    "lat": 34.6962,
+    "lng": 135.4982,
+    "langs": [],
+    "features": [
+      "高級スパエステ",
+      "北新地エリア"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": "https://rbn-salon.com/"
+  },
+  {
+    "id": "recwQYUJq9O4xO6dy",
+    "name": "大阪ステーションシティ総合クリニック",
+    "nameEn": "Osaka Station City General Clinic",
+    "cat": "hospital",
+    "address": "大阪府大阪市北区梅田3-1-1 サウスゲートビルディング17F",
+    "addressEn": "17F South Gate Bldg, 3-1-1 Umeda, Kita-ku, Osaka",
+    "phone": "06-6343-2825",
+    "lat": 34.7024,
+    "lng": 135.4959,
+    "langs": [],
+    "features": [
+      "総合内科・人間ドック",
+      "大阪駅直結"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": "https://osc-clinic.com/"
+  },
+  {
+    "id": "recwvjXy2eQVk9uFH",
+    "name": "スギ薬局 北新地店",
+    "nameEn": "Sugi Pharmacy Kitashinchi",
+    "cat": "pharmacy",
+    "address": "大阪府大阪市北区曽根崎新地1丁目12番8号 マルイト梅新ビル1階",
+    "addressEn": "1F Maruito Baishin Bldg, 1-12-8 Sonezaki Shinchi, Kita-ku, Osaka",
+    "phone": "06-6467-8662",
+    "lat": 34.6975,
+    "lng": 135.4975,
+    "langs": [],
+    "features": [
+      "調剤薬局併設ドラッグストア"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": "https://www.sugi-net.jp/stores/001286"
+  },
+  {
+    "id": "recx1i6mvxWpskHKx",
+    "name": "梅田内科ファミリークリニック",
+    "nameEn": "Umeda Naika Family Clinic",
+    "cat": "hospital",
+    "address": "大阪府大阪市北区梅田1-8-16 ヒルトンプラザイースト5F",
+    "addressEn": "5F Hilton Plaza East, 1-8-16 Umeda, Kita-ku, Osaka",
+    "phone": "06-6341-8008",
+    "lat": 34.701,
+    "lng": 135.494,
+    "langs": [],
+    "features": [
+      "内科・消化器科・外科",
+      "土日診療あり"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": "https://www.umeda-familyclinic.com/"
+  },
+  {
+    "id": "recy0g9UJuP4AGXy6",
+    "name": "men's cut house HAL'z（ハルツ）",
+    "nameEn": "men's cut house HAL'z",
+    "cat": "beauty",
+    "address": "大阪府大阪市北区西天満3-10-7",
+    "addressEn": "",
+    "phone": "06-6312-8301",
+    "lat": 34.6938,
+    "lng": 135.5045,
+    "langs": [],
+    "features": [
+      "メンズ専門理容室"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": null
+  },
+  {
+    "id": "recy3HndPMsm9dqBQ",
+    "name": "三井住友銀行 梅田支店",
+    "nameEn": "Sumitomo Mitsui Banking Corporation Umeda Branch",
+    "cat": "atm",
+    "address": "大阪府大阪市北区角田町8-47",
+    "addressEn": "8-47 Tsunoda-cho, Kita-ku, Osaka",
+    "phone": "0570-043-195",
+    "lat": 34.7013,
+    "lng": 135.4962,
+    "langs": [],
+    "features": [
+      "銀行・ATM"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": null
+  },
+  {
+    "id": "recyo88wFaCcglra1",
+    "name": "大阪メトロ梅田駅",
+    "nameEn": "Osaka Metro Umeda Station",
+    "cat": "transport",
+    "address": "大阪市北区角田町",
+    "addressEn": "Kakuda-cho, Kita-ku, Osaka",
+    "phone": null,
+    "lat": 34.7025,
+    "lng": 135.4959,
+    "langs": [
+      "en",
+      "zh",
+      "ko"
+    ],
+    "features": [
+      "御堂筋線のターミナル駅",
+      "梅田・大阪駅と直結"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": "https://subway.osakametro.co.jp/station_guide/m/m16/"
+  },
+  {
+    "id": "reczLZ7TF4O22Ael8",
+    "name": "薬 マツモトキヨシ クロスト大阪駅店",
+    "nameEn": "Matsumotokiyoshi Crost Osaka Station",
+    "cat": "pharmacy",
+    "address": "大阪府大阪市北区梅田3-1-1",
+    "addressEn": "3-1-1 Umeda, Kita-ku, Osaka",
+    "phone": "06-6344-5861",
+    "lat": 34.7024,
+    "lng": 135.4959,
+    "langs": [],
+    "features": [
+      "ドラッグストア",
+      "大阪駅徒歩1分"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": null
+  },
+  {
+    "id": "reczZmxZMgOVTSn8R",
+    "name": "大阪曽根崎新地郵便局",
+    "nameEn": "Osaka Sonezaki-Shinchi Post Office",
+    "cat": "atm",
+    "address": "大阪府大阪市北区曽根崎新地2-4-18",
+    "addressEn": "2-4-18 Sonezaki Shinchi, Kita-ku, Osaka",
+    "phone": "06-6346-0095",
+    "lat": 34.697,
+    "lng": 135.498,
+    "langs": [],
+    "features": [
+      "郵便局・ATM",
+      "北新地エリア"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": null
+  },
+  {
+    "id": "reczk3eU8JtTbiPRD",
+    "name": "Vin de nene（ヴァンドゥネネ）",
+    "nameEn": "Vin de nene",
+    "cat": "bar",
+    "address": "大阪府大阪市北区曽根崎新地1-7-8 新日本新地ビル本館1階",
+    "addressEn": "",
+    "phone": "06-6348-5444",
+    "lat": 34.6963,
+    "lng": 135.4977,
+    "langs": [],
+    "features": [
+      "風営法対象外",
+      "ダイニングバー",
+      "ワイン"
+    ],
+    "open24": false,
+    "emergency": false,
+    "sponsor": false,
+    "website": null
+  }
+]
