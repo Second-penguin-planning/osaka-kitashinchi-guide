@@ -92,6 +92,9 @@
   .facilities-grid { display: grid; grid-template-columns: 1fr; gap: 10px; }
   @media (min-width: 600px) { .facilities-grid { grid-template-columns: 1fr 1fr; } }
   @media (min-width: 900px) { .facilities-grid { grid-template-columns: 1fr 1fr 1fr; } }
+  .tier-header { grid-column: 1/-1; display: flex; align-items: center; gap: 6px; font-size: 12px; font-weight: 700; color: var(--text-muted); margin-top: 10px; padding-top: 10px; border-top: 1px dashed var(--border); }
+  .tier-header:first-child { margin-top: 0; padding-top: 0; border-top: none; }
+  .tier-header .tier-count { background: var(--border); color: var(--text-muted); font-size: 10px; font-weight: 700; padding: 1px 7px; border-radius: 8px; }
   .facility-card { background: var(--card-bg); border-radius: var(--radius); padding: 14px; box-shadow: var(--shadow); border: 1px solid var(--border); transition: box-shadow 0.2s, transform 0.1s; position: relative; }
   .facility-card:hover { box-shadow: var(--shadow-lg); transform: translateY(-1px); }
   .facility-card.emergency { border-left: 4px solid var(--accent); }
@@ -339,6 +342,7 @@ const i18n = {
     btn_directions:'経路案内', btn_call:'電話する', btn_website:'ウェブサイト', open_now:'24時間',
     records:'件', all_facilities:'すべての施設', loading:'施設データを読込中...', loaded_from:'キャッシュから読込',
     legal_bar:'🍸 北新地エリアでは風営法許可店（クラブ・キャバレー等）は掲載対象外です。ダイニングバー・ワインバー・ホテルバー等、風営法の許可を要しない業態のみを掲載しています。',
+    tier_200:'現在地から200m以内', tier_500:'現在地から500m以内', tier_far:'それ以外',
   },
   en: {
     tagline:'Osaka Station / Kitashinchi / Nishitenma / Nakanoshima Area Guide', sos_text:'Emergency / Need Help', sos_btn:'Emergency Numbers',
@@ -348,6 +352,7 @@ const i18n = {
     btn_directions:'Directions', btn_call:'Call', btn_website:'Website', open_now:'24h',
     records:' results', all_facilities:'All Facilities', loading:'Loading facilities...', loaded_from:'Loaded from cache',
     legal_bar:'🍸 In the Kitashinchi area, venues requiring an entertainment business license (clubs, cabarets, etc.) are not listed here. Only dining bars, wine bars, and hotel bars that do not require such licensing are included.',
+    tier_200:'Within 200m of you', tier_500:'Within 500m of you', tier_far:'Further away',
   },
   zh: {
     tagline:'大阪站・北新地・西天满・中之岛 地区指南', sos_text:'紧急情况 / 需要帮助', sos_btn:'紧急电话',
@@ -357,6 +362,7 @@ const i18n = {
     btn_directions:'路线导航', btn_call:'拨打电话', btn_website:'网站', open_now:'24小时',
     records:'件', all_facilities:'所有设施', loading:'正在加载设施数据...', loaded_from:'来自缓存',
     legal_bar:'🍸 在北新地地区，需要风俗营业许可的店铺（夜总会、卡巴莱等）不在本站列出。仅收录无需此类许可的餐酒吧、红酒吧、酒店酒吧等。',
+    tier_200:'距您200米以内', tier_500:'距您500米以内', tier_far:'其他',
   },
   ko: {
     tagline:'오사카역・기타신치・니시텐마・나카노시마 지역 안내', sos_text:'긴급 상황 / 도움이 필요할 때', sos_btn:'긴급 번호 보기',
@@ -366,6 +372,7 @@ const i18n = {
     btn_directions:'경로 안내', btn_call:'전화', btn_website:'웹사이트', open_now:'24시간',
     records:'건', all_facilities:'전체 시설', loading:'시설 데이터를 불러오는 중...', loaded_from:'캐시에서 로드',
     legal_bar:'🍸 기타신치 지역에서는 풍속영업 허가가 필요한 업소(클럽, 카바레 등)는 게재하지 않습니다. 다이닝 바, 와인 바, 호텔 바 등 해당 허가가 필요 없는 업종만 게재합니다.',
+    tier_200:'현재 위치에서 200m 이내', tier_500:'현재 위치에서 500m 이내', tier_far:'그 외',
   },
 };
 let currentLang = 'ja';
@@ -739,11 +746,11 @@ function renderCards() {
       (f.features||[]).some(x => x.toLowerCase().includes(searchQuery))
     );
   }
-  items.sort((a, b) => {
+  const bySponsorThenDist = (a, b) => {
     if (a.sponsor && !b.sponsor) return -1;
     if (!a.sponsor && b.sponsor) return 1;
     return getDistance(userLat, userLng, a.lat, a.lng) - getDistance(userLat, userLng, b.lat, b.lng);
-  });
+  };
 
   if (badge) badge.textContent = items.length + t('records');
 
@@ -751,7 +758,29 @@ function renderCards() {
     grid.innerHTML = `<div class="no-results"><div style="font-size:36px;margin-bottom:10px;">🔍</div><div>該当する施設が見つかりませんでした</div></div>`;
     return;
   }
-  grid.innerHTML = items.map(f => renderCard(f)).join('');
+
+  // 現在地からの距離帯（200m以内 / 500m以内 / それ以外）でグループ化
+  const near = [], mid = [], far = [];
+  items.forEach(f => {
+    const d = getDistance(userLat, userLng, f.lat, f.lng);
+    if (d <= 200) near.push(f); else if (d <= 500) mid.push(f); else far.push(f);
+  });
+  [near, mid, far].forEach(group => group.sort(bySponsorThenDist));
+
+  const tiers = [
+    { items: near, label: t('tier_200') },
+    { items: mid, label: t('tier_500') },
+    { items: far, label: t('tier_far') },
+  ].filter(tr => tr.items.length > 0);
+
+  if (tiers.length <= 1) {
+    grid.innerHTML = [...near, ...mid, ...far].map(f => renderCard(f)).join('');
+  } else {
+    grid.innerHTML = tiers.map(tr =>
+      `<div class="tier-header">📍 ${tr.label} <span class="tier-count">${tr.items.length}</span></div>` +
+      tr.items.map(f => renderCard(f)).join('')
+    ).join('');
+  }
 }
 
 function renderCard(f) {
